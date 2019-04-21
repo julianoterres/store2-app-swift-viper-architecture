@@ -21,8 +21,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="Enjoei" customModuleProvider="target">
             <connections>
                 <outlet property="collectionView" destination="lct-vD-Tch" id="xUd-ne-uD1"/>
+                <outlet property="installmentsLabel" destination="i4a-aO-5N7" id="fAF-UG-fyl"/>
                 <outlet property="pageControl" destination="JNs-Ep-veO" id="JNE-nQ-fLr"/>
-                <outlet property="priceDiscountLabel" destination="i4a-aO-5N7" id="XNE-Eu-zBL"/>
                 <outlet property="priceFinalLabel" destination="zi6-Tv-zjD" id="qNf-ct-WGz"/>
                 <outlet property="priceLabel" destination="Llb-NM-iIg" id="umS-69-phq"/>
                 <outlet property="stackViewPrices" destination="4VM-Id-ENk" id="Agf-I0-Z36"/>
@@ -58,16 +58,16 @@
                     <color key="currentPageIndicatorTintColor" red="0.90980392160000001" green="0.33725490200000002" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </pageControl>
                 <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4VM-Id-ENk">
-                    <rect key="frame" x="20" y="465" width="157" height="26.5"/>
+                    <rect key="frame" x="20" y="465" width="151" height="26"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 220" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Llb-NM-iIg">
-                            <rect key="frame" x="0.0" y="0.0" width="73.5" height="26.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="70.5" height="26"/>
                             <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="22"/>
                             <color key="textColor" red="0.792156862745098" green="0.77254901960784317" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 220" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zi6-Tv-zjD">
-                            <rect key="frame" x="83.5" y="0.0" width="73.5" height="26.5"/>
+                            <rect key="frame" x="80.5" y="0.0" width="70.5" height="26"/>
                             <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="22"/>
                             <color key="textColor" red="0.96862745100000003" green="0.44705882349999998" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
@@ -75,7 +75,7 @@
                     </subviews>
                 </stackView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20% OFF EM ATÉ 12X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4a-aO-5N7">
-                    <rect key="frame" x="20" y="501.5" width="132.5" height="17"/>
+                    <rect key="frame" x="20" y="501" width="141.5" height="16.5"/>
                     <fontDescription key="fontDescription" name="ProximaNova-Light" family="Proxima Nova" pointSize="14"/>
                     <color key="textColor" red="0.49019607840000001" green="0.47843137250000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>

@@ -30,12 +30,9 @@ extension HomeInteractor: HomeWorkerToInteractorProtocol {
   
   func fetchedProducts(response: ProductsResponseApiEntity, typeFetch: TypeFetchProductsEnum) {
     let products = response.products.map({ (product) -> ProductViewEntity in
-      var userImage: URL? = nil
-      var imageDefault: URL? = nil
+      
+      var userImage: URL?, imageDefault: URL?, discount: String?, price: String?, priceFinal: String?, installments: String?
       var images: [URL?] = []
-      var discount: String? = nil
-      var price: String? = nil
-      var priceFinal: String? = nil
       
       if let originalPrice = product.original_price_integer, let originalFriceFinal = product.price {
         if originalPrice != originalFriceFinal {
@@ -62,8 +59,14 @@ extension HomeInteractor: HomeWorkerToInteractorProtocol {
       }
       
       if let discountValue = product.discount_percentage, discountValue > 0  {
+        installments = String(discountValue) + "% "
         discount = "-" + String(discountValue) + "%"
       }
+      
+      if let qtyInstallments = product.maximum_installment {
+        installments = (installments ?? "") + "EM ATÉ \(qtyInstallments)X"
+      }
+      
       return ProductViewEntity(
         discount: discount,
         imageDefault: imageDefault,
@@ -71,6 +74,7 @@ extension HomeInteractor: HomeWorkerToInteractorProtocol {
         likes: String(product.likes_count ?? 0),
         price: price,
         priceFinal: priceFinal,
+        installmentText: installments,
         title: product.title,
         userImage: userImage
       )

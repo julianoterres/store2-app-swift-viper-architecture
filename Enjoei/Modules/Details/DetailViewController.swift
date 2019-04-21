@@ -7,13 +7,12 @@ class DetailViewController: UIViewController {
   @IBOutlet weak var pageControl: UIPageControl!
   @IBOutlet weak var priceLabel: UILabel!
   @IBOutlet weak var priceFinalLabel: UILabel!
-  @IBOutlet weak var priceDiscountLabel: UILabel!
+  @IBOutlet weak var installmentsLabel: UILabel!
   @IBOutlet weak var stackViewPrices: UIStackView!
   
   var product: ProductViewEntity!
   var collectionViewScroolPoint = CGFloat(0)
   var collectionViewSlideCurrent = 0
-  var totalCards = 10
   
   init() {
     super.init(nibName: String(describing: DetailViewController.self), bundle: nil)
@@ -27,7 +26,7 @@ class DetailViewController: UIViewController {
     super.viewDidLoad()
     navigationController?.setTransparent()
     navigationController?.setIconBack()
-    pageControl.numberOfPages = totalCards
+    pageControl.numberOfPages = product.images?.count ?? 0
     automaticallyAdjustsScrollViewInsets = false
     setupCollectionView()
     setupPrices()
@@ -43,6 +42,7 @@ class DetailViewController: UIViewController {
     priceText.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 1, range: NSMakeRange(0, priceText.length))
     priceLabel.attributedText = priceText
     priceFinalLabel.text = product.priceFinal ?? ""
+    installmentsLabel.text = product.installmentText ?? ""
   }
   
 }
@@ -50,12 +50,12 @@ class DetailViewController: UIViewController {
 extension DetailViewController: UICollectionViewDataSource, UICollectionViewDelegate {
   
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-    return totalCards
+    return product.images?.count ?? 0
   }
   
   func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: DetailCell.reusubleIdentifier, for: indexPath) as! DetailCell
-    cell.setup()
+    cell.setup(imageUrl: product.images?[indexPath.row] ?? nil)
     return cell
   }
   

@@ -14,7 +14,7 @@ extension UINavigationController {
   
   func setIconBack() {
     navigationBar.topItem?.title = ""
-    navigationBar.tintColor = .red
+    navigationBar.tintColor = .white
     let image = UIImage(named: "arrow_back")
     self.navigationBar.backIndicatorImage = image
     self.navigationBar.backIndicatorTransitionMaskImage = image

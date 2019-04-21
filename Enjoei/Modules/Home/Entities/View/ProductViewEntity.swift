@@ -8,6 +8,7 @@ struct ProductViewEntity {
   let likes: String?
   let price: String?
   let priceFinal: String?
+  let installmentText: String?
   let title: String?
   let userImage: URL?
 }

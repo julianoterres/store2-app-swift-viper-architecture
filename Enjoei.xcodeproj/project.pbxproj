@@ -61,6 +61,7 @@
 		E3F033FC226BDD23008E9500 /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F033FB226BDD23008E9500 /* FloatExtension.swift */; };
 		E3F033FE226BEDE2008E9500 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F033FD226BEDE2008E9500 /* ArrayExtension.swift */; };
 		E3F03400226C032C008E9500 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F033FF226C032C008E9500 /* DetailRouter.swift */; };
+		E3F03404226CB7E0008E9500 /* DetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3F03403226CB7E0008E9500 /* DetailCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +144,7 @@
 		E3F033FB226BDD23008E9500 /* FloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtension.swift; sourceTree = "<group>"; };
 		E3F033FD226BEDE2008E9500 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		E3F033FF226C032C008E9500 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		E3F03403226CB7E0008E9500 /* DetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,9 +318,10 @@
 			isa = PBXGroup;
 			children = (
 				E3F033CD226AD351008E9500 /* DetailViewController.xib */,
-				E3A50540226A8ECB003C4A47 /* DetailCell.swift */,
+				E3F03403226CB7E0008E9500 /* DetailCell.xib */,
 				E3A5053C226A847B003C4A47 /* DetailViewController.swift */,
 				E3F033FF226C032C008E9500 /* DetailRouter.swift */,
+				E3A50540226A8ECB003C4A47 /* DetailCell.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -585,6 +588,7 @@
 				E38572EE226A04F100602DB4 /* LaunchScreen.storyboard in Resources */,
 				E3F033D2226B9833008E9500 /* InboxViewController.xib in Resources */,
 				E3857325226A212F00602DB4 /* ProximaNova-Light.otf in Resources */,
+				E3F03404226CB7E0008E9500 /* DetailCell.xib in Resources */,
 				E312A57E226AA87A00097BCE /* .gitignore in Resources */,
 				E3F033CA226ACDE5008E9500 /* HomeViewController.xib in Resources */,
 				E3857326226A212F00602DB4 /* ProximaNova-Bold.otf in Resources */,

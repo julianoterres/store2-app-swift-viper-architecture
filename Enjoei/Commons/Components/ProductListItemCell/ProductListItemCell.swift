@@ -44,11 +44,11 @@ class ProductListItemCell: UICollectionViewCell {
   
   func setupDiscount() {
     guard let discount = product.discount else {
-      discountView.isHidden = false
+      discountView.isHidden = true
       return
     }
     discountValue.text = discount
-    discountView.isHidden = true
+    discountView.isHidden = false
   }
   
   func setupTitle() {

@@ -4,6 +4,7 @@ import Foundation
 struct ProductsApiEntity: Codable {
   let discount_percentage: Int?
   let likes_count: Int?
+  let maximum_installment: Int?
   let photos: [ProductPhotoApiEntity]?
   let price: Float?
   let original_price_integer: Float?

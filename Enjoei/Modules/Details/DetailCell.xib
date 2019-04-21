@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailCell" customModule="Enjoei" customModuleProvider="target">
+            <connections>
+                <outlet property="content" destination="iN0-l3-epB" id="qxz-Cs-cQR"/>
+                <outlet property="image" destination="HIW-bt-l4v" id="XhN-fd-Uns"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="445"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="HIW-bt-l4v">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="445"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="HIW-bt-l4v" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="34x-cO-ej2"/>
+                <constraint firstItem="HIW-bt-l4v" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fvn-y9-ngO"/>
+                <constraint firstItem="HIW-bt-l4v" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="hkc-qs-WCt"/>
+                <constraint firstItem="HIW-bt-l4v" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rfW-8h-aMJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="placeholder" width="414" height="413.5"/>
+    </resources>
+</document>
