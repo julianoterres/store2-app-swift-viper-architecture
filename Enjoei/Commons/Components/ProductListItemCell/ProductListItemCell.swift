@@ -1,0 +1,75 @@
+
+import UIKit
+import Kingfisher
+
+class ProductListItemCell: UICollectionViewCell {
+  
+  @IBOutlet var content: UIView!
+  @IBOutlet weak var title: UILabel!
+  @IBOutlet weak var price: UILabel!
+  @IBOutlet weak var priceFinal: UILabel!
+  @IBOutlet weak var likes: UILabel!
+  @IBOutlet weak var userPhoto: UIImageView!
+  @IBOutlet weak var photo: UIImageView!
+  @IBOutlet weak var discountView: UIView!
+  @IBOutlet weak var discountValue: UILabel!
+  
+  var product: ProductViewEntity!
+  
+  override init(frame: CGRect) {
+    super.init(frame: frame)
+    commonInit()
+  }
+  
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    commonInit()
+  }
+  
+  func commonInit() {
+    Bundle.main.loadNibNamed("ProductListItemCell", owner: self, options: nil)
+    contentView.addSubview(content)
+    content.frame = bounds
+    content.autoresizingMask = [.flexibleHeight, .flexibleWidth]
+  }
+  
+  func setup(productView: ProductViewEntity) {
+    product = productView
+    setupDiscount()
+    setupPrices()
+    setupImages()
+    setupTitle()
+    setupLikes()
+  }
+  
+  func setupDiscount() {
+    guard let discount = product.discount else {
+      discountView.isHidden = false
+      return
+    }
+    discountValue.text = discount
+    discountView.isHidden = true
+  }
+  
+  func setupTitle() {
+    title.text = product.title ?? ""
+  }
+  
+  func setupPrices() {
+    let priceText: NSMutableAttributedString =  NSMutableAttributedString(string: product.price ?? "")
+    priceText.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 1, range: NSMakeRange(0, priceText.length))
+    price.attributedText = priceText
+    priceFinal.text = product.priceFinal ?? ""
+  }
+  
+  func setupLikes() {
+    likes.text = product.likes ?? ""
+  }
+  
+  func setupImages() {
+    userPhoto.kf.setImage(with: product.userImage, placeholder: UIImage(named: "avatar_placeholder "))
+    photo.kf.setImage(with: product.imageDefault, placeholder: UIImage(named: "placeholder"))
+  }
+  
+}
+
