@@ -22,6 +22,10 @@
             <connections>
                 <outlet property="collectionView" destination="lct-vD-Tch" id="xUd-ne-uD1"/>
                 <outlet property="pageControl" destination="JNs-Ep-veO" id="JNE-nQ-fLr"/>
+                <outlet property="priceDiscountLabel" destination="i4a-aO-5N7" id="XNE-Eu-zBL"/>
+                <outlet property="priceFinalLabel" destination="zi6-Tv-zjD" id="qNf-ct-WGz"/>
+                <outlet property="priceLabel" destination="Llb-NM-iIg" id="umS-69-phq"/>
+                <outlet property="stackViewPrices" destination="4VM-Id-ENk" id="Agf-I0-Z36"/>
                 <outlet property="view" destination="Qs1-Qt-VG4" id="LAz-PR-9fd"/>
             </connections>
         </placeholder>
@@ -53,20 +57,25 @@
                     <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="currentPageIndicatorTintColor" red="0.90980392160000001" green="0.33725490200000002" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </pageControl>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 220" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Llb-NM-iIg">
-                    <rect key="frame" x="20" y="465" width="74" height="27"/>
-                    <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="22"/>
-                    <color key="textColor" red="0.96862745100000003" green="0.44705882349999998" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 220" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zi6-Tv-zjD">
-                    <rect key="frame" x="104" y="465" width="74" height="27"/>
-                    <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="22"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4VM-Id-ENk">
+                    <rect key="frame" x="20" y="465" width="157" height="26.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 220" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Llb-NM-iIg">
+                            <rect key="frame" x="0.0" y="0.0" width="73.5" height="26.5"/>
+                            <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="22"/>
+                            <color key="textColor" red="0.792156862745098" green="0.77254901960784317" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 220" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zi6-Tv-zjD">
+                            <rect key="frame" x="83.5" y="0.0" width="73.5" height="26.5"/>
+                            <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="22"/>
+                            <color key="textColor" red="0.96862745100000003" green="0.44705882349999998" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20% OFF EM ATÉ 12X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4a-aO-5N7">
-                    <rect key="frame" x="20" y="502" width="133" height="17"/>
+                    <rect key="frame" x="20" y="501.5" width="132.5" height="17"/>
                     <fontDescription key="fontDescription" name="ProximaNova-Light" family="Proxima Nova" pointSize="14"/>
                     <color key="textColor" red="0.49019607840000001" green="0.47843137250000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
@@ -74,18 +83,16 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="Llb-NM-iIg" firstAttribute="top" secondItem="lct-vD-Tch" secondAttribute="bottom" constant="20" id="0z2-aL-0Wo"/>
+                <constraint firstItem="4VM-Id-ENk" firstAttribute="leading" secondItem="UPG-nS-Z9o" secondAttribute="leading" constant="20" id="0UR-BH-PZ3"/>
                 <constraint firstItem="UPG-nS-Z9o" firstAttribute="trailing" secondItem="JNs-Ep-veO" secondAttribute="trailing" id="3sN-tJ-Gba"/>
                 <constraint firstItem="JNs-Ep-veO" firstAttribute="bottom" secondItem="lct-vD-Tch" secondAttribute="bottom" id="40P-qg-g32"/>
-                <constraint firstItem="Llb-NM-iIg" firstAttribute="leading" secondItem="UPG-nS-Z9o" secondAttribute="leading" constant="20" id="7Mg-8d-NQV"/>
-                <constraint firstItem="i4a-aO-5N7" firstAttribute="top" secondItem="Llb-NM-iIg" secondAttribute="bottom" constant="10" id="Fs7-Dd-10q"/>
                 <constraint firstItem="i4a-aO-5N7" firstAttribute="leading" secondItem="UPG-nS-Z9o" secondAttribute="leading" constant="20" id="Rd8-ok-ZPb"/>
                 <constraint firstItem="JNs-Ep-veO" firstAttribute="centerX" secondItem="lct-vD-Tch" secondAttribute="centerX" id="UNW-Jn-MI3"/>
                 <constraint firstItem="lct-vD-Tch" firstAttribute="leading" secondItem="UPG-nS-Z9o" secondAttribute="leading" id="Wbs-CJ-QU5"/>
                 <constraint firstItem="lct-vD-Tch" firstAttribute="top" secondItem="Qs1-Qt-VG4" secondAttribute="top" id="YhX-uE-Vcv"/>
-                <constraint firstItem="zi6-Tv-zjD" firstAttribute="leading" secondItem="Llb-NM-iIg" secondAttribute="trailing" constant="10" id="fM7-Zf-8S0"/>
+                <constraint firstItem="i4a-aO-5N7" firstAttribute="top" secondItem="4VM-Id-ENk" secondAttribute="bottom" constant="10" id="ZUD-Ll-i7E"/>
                 <constraint firstItem="JNs-Ep-veO" firstAttribute="leading" secondItem="UPG-nS-Z9o" secondAttribute="leading" id="iyp-dH-fva"/>
-                <constraint firstItem="zi6-Tv-zjD" firstAttribute="centerY" secondItem="Llb-NM-iIg" secondAttribute="centerY" id="ruZ-HK-wEb"/>
+                <constraint firstItem="4VM-Id-ENk" firstAttribute="top" secondItem="lct-vD-Tch" secondAttribute="bottom" constant="20" id="jZ8-tM-ZHj"/>
                 <constraint firstItem="UPG-nS-Z9o" firstAttribute="trailing" secondItem="lct-vD-Tch" secondAttribute="trailing" id="zX2-kT-H1t"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="UPG-nS-Z9o"/>

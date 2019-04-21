@@ -5,6 +5,10 @@ class DetailViewController: UIViewController {
   
   @IBOutlet weak var collectionView: UICollectionView!
   @IBOutlet weak var pageControl: UIPageControl!
+  @IBOutlet weak var priceLabel: UILabel!
+  @IBOutlet weak var priceFinalLabel: UILabel!
+  @IBOutlet weak var priceDiscountLabel: UILabel!
+  @IBOutlet weak var stackViewPrices: UIStackView!
   
   var product: ProductViewEntity!
   var collectionViewScroolPoint = CGFloat(0)
@@ -26,10 +30,19 @@ class DetailViewController: UIViewController {
     pageControl.numberOfPages = totalCards
     automaticallyAdjustsScrollViewInsets = false
     setupCollectionView()
+    setupPrices()
   }
   
   func setupCollectionView() {
     collectionView.register(DetailCell.self, forCellWithReuseIdentifier: DetailCell.reusubleIdentifier)
+  }
+  
+  func setupPrices() {
+    stackViewPrices.spacing = (product.price == nil) ? 0 : 10
+    let priceText: NSMutableAttributedString =  NSMutableAttributedString(string: product.price ?? "")
+    priceText.addAttribute(NSAttributedString.Key.strikethroughStyle, value: 1, range: NSMakeRange(0, priceText.length))
+    priceLabel.attributedText = priceText
+    priceFinalLabel.text = product.priceFinal ?? ""
   }
   
 }
