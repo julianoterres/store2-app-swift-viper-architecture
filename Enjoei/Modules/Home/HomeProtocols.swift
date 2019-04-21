@@ -13,6 +13,7 @@ protocol HomeViewControllerToPresenterProtocol: class {
 protocol HomePresenterToViewControllerProtocol: class {
   func addFetchedProductsBottom(productsView: [ProductViewEntity])
   func addFetchedProductsTop(productsView: [ProductViewEntity])
+  func showAlertError(message: String)
 }
 
 protocol HomePresenterToRouterProtocol: class {

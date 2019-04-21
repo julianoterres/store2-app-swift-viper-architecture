@@ -2,9 +2,7 @@
 import Foundation
 import UIKit
 
-class DetailRouter {
-  
-  weak var viewController: UIViewController?
+class DetailRouter: DetailRouterProtocol {
   
   func buildModule(product: ProductViewEntity) -> UIViewController {
     let viewController = DetailViewController()

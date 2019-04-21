@@ -30,7 +30,7 @@ extension HomePresenter: HomeInteractorToPresenterProtocol {
   }
   
   func fetchedDealsFail(message: String) {
-    
+    viewController?.showAlertError(message: message)
   }
   
 }

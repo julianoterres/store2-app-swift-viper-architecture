@@ -50,7 +50,7 @@ extension HomeInteractor: HomeWorkerToInteractorProtocol {
           if imageDefault == nil {
             imageDefault = URL(string: PhotosBaseUrlEnum.size180x180.rawValue + photo.image_public_id!)
           }
-          return URL(string: PhotosBaseUrlEnum.size180x180.rawValue + photo.image_public_id!)
+          return URL(string: PhotosBaseUrlEnum.size_460x460.rawValue + photo.image_public_id!)
         })
       }
       

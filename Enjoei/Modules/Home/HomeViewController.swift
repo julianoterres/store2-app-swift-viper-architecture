@@ -4,6 +4,7 @@ import UIKit
 class HomeViewController: UIViewController {
   
   @IBOutlet weak var collectionView: UICollectionView!
+  @IBOutlet weak var loader: UIActivityIndicatorView!
   
   var presenter: HomeViewControllerToPresenterProtocol!
   let refreshControl = GIFRefreshControl()
@@ -28,6 +29,7 @@ class HomeViewController: UIViewController {
   
   func setupCollectionView() {
     collectionView.register(HomeCell.self, forCellWithReuseIdentifier: HomeCell.reusubleIdentifier)
+    collectionView.register(HomeHeader.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HomeHeader")
   }
   
   func setuprefreshControl() {
@@ -59,7 +61,13 @@ extension HomeViewController: HomePresenterToViewControllerProtocol {
   
   func addFetchedProductsBottom(productsView: [ProductViewEntity]) {
     products.append(contentsOf: productsView)
+    loader.stopAnimating()
+    collectionView.isHidden = false
     collectionView.reloadData()
+  }
+  
+  func showAlertError(message: String) {
+    Alert.showAlert(message: message)
   }
   
 }
@@ -78,6 +86,23 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
   
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     presenter?.didSelectProduct(product: products[indexPath.row])
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+    return CGSize(width: collectionView.bounds.width, height: 44)
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
+    return CGSize(width: 0, height: 0)
+  }
+  
+  func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+    switch kind {
+    case UICollectionView.elementKindSectionHeader:
+      return collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "HomeHeader", for: indexPath)  as! HomeHeader
+    default:
+      return UICollectionReusableView()
+    }
   }
   
 }

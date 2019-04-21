@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ProximaNova-Light.otf">
+            <string>ProximaNova-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeHeader" customModule="Enjoei" customModuleProvider="target">
+            <connections>
+                <outlet property="content" destination="iN0-l3-epB" id="9XB-Kl-UYz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_clock" translatesAutoresizingMaskIntoConstraints="NO" id="0sc-zk-qgi">
+                    <rect key="frame" x="20" y="10.5" width="23" height="23"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="23" id="YCX-XG-fjw"/>
+                        <constraint firstAttribute="height" constant="23" id="fuP-HP-4Be"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7 dias" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V3N-Qy-cVC">
+                    <rect key="frame" x="59" y="12" width="41" height="20"/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Light" family="Proxima Nova" pointSize="16"/>
+                    <color key="textColor" red="0.96862745098039216" green="0.44705882352941173" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="filtrar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZy-vz-hRy">
+                    <rect key="frame" x="360" y="12" width="34" height="20"/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Light" family="Proxima Nova" pointSize="16"/>
+                    <color key="textColor" red="0.49019607843137253" green="0.47843137254901957" blue="0.46666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ordenar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRV-Wq-fxA">
+                    <rect key="frame" x="285" y="12" width="55" height="20"/>
+                    <fontDescription key="fontDescription" name="ProximaNova-Light" family="Proxima Nova" pointSize="16"/>
+                    <color key="textColor" red="0.49019607840000001" green="0.47843137250000001" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="geI-oP-5Ge">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="1"/>
+                    <color key="backgroundColor" red="0.95686274509803915" green="0.94901960784313721" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="LyA-1E-xLc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="0sc-zk-qgi" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="QaQ-0T-WN6"/>
+                <constraint firstItem="geI-oP-5Ge" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TFy-10-MeL"/>
+                <constraint firstItem="V3N-Qy-cVC" firstAttribute="leading" secondItem="0sc-zk-qgi" secondAttribute="trailing" constant="16" id="UBD-hP-QF6"/>
+                <constraint firstItem="uZy-vz-hRy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="V91-dC-YxN"/>
+                <constraint firstItem="V3N-Qy-cVC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XYy-xr-N5N"/>
+                <constraint firstAttribute="trailing" secondItem="geI-oP-5Ge" secondAttribute="trailing" id="ddj-as-IVc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="uZy-vz-hRy" secondAttribute="trailing" constant="20" id="msp-C5-PzC"/>
+                <constraint firstItem="geI-oP-5Ge" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tL6-3r-27l"/>
+                <constraint firstItem="0sc-zk-qgi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="xFf-CU-Nd9"/>
+                <constraint firstItem="KRV-Wq-fxA" firstAttribute="centerY" secondItem="uZy-vz-hRy" secondAttribute="centerY" id="yRa-oX-qSE"/>
+                <constraint firstItem="uZy-vz-hRy" firstAttribute="leading" secondItem="KRV-Wq-fxA" secondAttribute="trailing" constant="20" id="ydT-3a-WzY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="47.826086956521742" y="-24.107142857142858"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_clock" width="23" height="23"/>
+    </resources>
+</document>
