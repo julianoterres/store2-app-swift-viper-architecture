@@ -29,7 +29,7 @@ extension HomePresenter: HomeInteractorToPresenterProtocol {
     }
   }
   
-  func fetchedDealsFail(message: String) {
+  func fetchedProductsFail(message: String) {
     viewController?.showAlertError(message: message)
   }
   

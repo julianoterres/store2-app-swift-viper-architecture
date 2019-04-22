@@ -11,7 +11,6 @@
 		E36865D6226A32D90087A234 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E36865D5226A32D90087A234 /* Cartfile */; };
 		E38572E4226A04EF00602DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38572E3226A04EF00602DB4 /* AppDelegate.swift */; };
 		E38572EE226A04F100602DB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38572EC226A04F100602DB4 /* LaunchScreen.storyboard */; };
-		E38572F9226A04F200602DB4 /* EnjoeiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38572F8226A04F200602DB4 /* EnjoeiTests.swift */; };
 		E3857304226A04F200602DB4 /* EnjoeiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3857303226A04F200602DB4 /* EnjoeiUITests.swift */; };
 		E3857323226A212F00602DB4 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E385731E226A212F00602DB4 /* ProximaNova-Regular.otf */; };
 		E3857324226A212F00602DB4 /* ProximaNova-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E385731F226A212F00602DB4 /* ProximaNova-LightItalic.otf */; };
@@ -25,8 +24,26 @@
 		E38AE5F6226CFA63004B2132 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE5F5226CFA63004B2132 /* Alert.swift */; };
 		E38AE5F9226CFBA3004B2132 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE5F8226CFBA3004B2132 /* AlertView.swift */; };
 		E38AE5FB226CFBB8004B2132 /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38AE5FA226CFBB8004B2132 /* AlertView.xib */; };
+		E38AE602226D0959004B2132 /* Gifs in Resources */ = {isa = PBXBuildFile; fileRef = E38AE601226D0958004B2132 /* Gifs */; };
+		E38AE609226D0ADF004B2132 /* HomeViewControllerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE608226D0ADF004B2132 /* HomeViewControllerSpy.swift */; };
+		E38AE60B226D0DA6004B2132 /* HomePresenterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE60A226D0DA6004B2132 /* HomePresenterSpy.swift */; };
+		E38AE60D226D0FD8004B2132 /* HomeInteractorSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE60C226D0FD8004B2132 /* HomeInteractorSpy.swift */; };
+		E38AE60F226D10BF004B2132 /* HomeWorkerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE60E226D10BF004B2132 /* HomeWorkerSpy.swift */; };
+		E38AE611226D114C004B2132 /* HomeRouterSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE610226D114C004B2132 /* HomeRouterSpy.swift */; };
+		E38AE613226D11E5004B2132 /* HomeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE612226D11E5004B2132 /* HomeViewControllerTests.swift */; };
+		E38AE620226D1445004B2132 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38AE61C226D1377004B2132 /* Nimble.framework */; };
+		E38AE621226D1449004B2132 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38AE61D226D1377004B2132 /* Quick.framework */; };
+		E38AE623226D2B1F004B2132 /* HomePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE622226D2B1F004B2132 /* HomePresenterTests.swift */; };
+		E38AE625226D3025004B2132 /* HomeInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE624226D3025004B2132 /* HomeInteractorTests.swift */; };
+		E38AE627226D33B7004B2132 /* ProductsRequestSpy.json in Resources */ = {isa = PBXBuildFile; fileRef = E38AE626226D33B7004B2132 /* ProductsRequestSpy.json */; };
+		E38AE628226D3540004B2132 /* ProductsRequestSpy.json in Resources */ = {isa = PBXBuildFile; fileRef = E38AE626226D33B7004B2132 /* ProductsRequestSpy.json */; };
+		E38AE62A226D399A004B2132 /* HomeWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE629226D399A004B2132 /* HomeWorkerTests.swift */; };
+		E38AE631226D3AF3004B2132 /* ApiSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE630226D3AF3004B2132 /* ApiSpy.swift */; };
+		E38AE633226D3B04004B2132 /* NetworkSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE632226D3B04004B2132 /* NetworkSpy.swift */; };
+		E38AE637226D45DA004B2132 /* HomeRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE636226D45DA004B2132 /* HomeRouterTests.swift */; };
+		E38AE63A226D477C004B2132 /* DetailRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE639226D477C004B2132 /* DetailRouterTests.swift */; };
+		E38AE63E226D4C77004B2132 /* DetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38AE63D226D4C77004B2132 /* DetailViewControllerTests.swift */; };
 		E3A50526226A4B89003C4A47 /* GIFRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A50525226A4B89003C4A47 /* GIFRefreshControl.swift */; };
-		E3A5052E226A62FE003C4A47 /* pull_to_refresh.gif in Resources */ = {isa = PBXBuildFile; fileRef = E3A5052D226A62FD003C4A47 /* pull_to_refresh.gif */; };
 		E3A50533226A6487003C4A47 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A50532226A6487003C4A47 /* HomeCell.xib */; };
 		E3A50539226A6BA9003C4A47 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A50538226A6BA9003C4A47 /* UIViewExtension.swift */; };
 		E3A5053B226A818B003C4A47 /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A5053A226A818B003C4A47 /* UINavigationControllerExtension.swift */; };
@@ -91,14 +108,11 @@
 		E312A57F226AAAB500097BCE /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		E312A580226AAAB500097BCE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		E36865D5226A32D90087A234 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		E36865D8226A33AB0087A234 /* SwiftPullToRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftPullToRefresh.framework; path = Carthage/Build/iOS/SwiftPullToRefresh.framework; sourceTree = "<group>"; };
-		E36865E2226A3F070087A234 /* SwiftGif.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGif.framework; path = Carthage/Build/iOS/SwiftGif.framework; sourceTree = "<group>"; };
 		E38572E0226A04EF00602DB4 /* Enjoei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enjoei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38572E3226A04EF00602DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E38572ED226A04F100602DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E38572EF226A04F100602DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38572F4226A04F200602DB4 /* EnjoeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnjoeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E38572F8226A04F200602DB4 /* EnjoeiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjoeiTests.swift; sourceTree = "<group>"; };
 		E38572FA226A04F200602DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38572FF226A04F200602DB4 /* EnjoeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnjoeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3857303226A04F200602DB4 /* EnjoeiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnjoeiUITests.swift; sourceTree = "<group>"; };
@@ -115,8 +129,26 @@
 		E38AE5F5226CFA63004B2132 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		E38AE5F8226CFBA3004B2132 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		E38AE5FA226CFBB8004B2132 /* AlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		E38AE601226D0958004B2132 /* Gifs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gifs; sourceTree = "<group>"; };
+		E38AE607226D0ADE004B2132 /* EnjoeiTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnjoeiTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		E38AE608226D0ADF004B2132 /* HomeViewControllerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerSpy.swift; sourceTree = "<group>"; };
+		E38AE60A226D0DA6004B2132 /* HomePresenterSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterSpy.swift; sourceTree = "<group>"; };
+		E38AE60C226D0FD8004B2132 /* HomeInteractorSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorSpy.swift; sourceTree = "<group>"; };
+		E38AE60E226D10BF004B2132 /* HomeWorkerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkerSpy.swift; sourceTree = "<group>"; };
+		E38AE610226D114C004B2132 /* HomeRouterSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouterSpy.swift; sourceTree = "<group>"; };
+		E38AE612226D11E5004B2132 /* HomeViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTests.swift; sourceTree = "<group>"; };
+		E38AE61C226D1377004B2132 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		E38AE61D226D1377004B2132 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		E38AE622226D2B1F004B2132 /* HomePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterTests.swift; sourceTree = "<group>"; };
+		E38AE624226D3025004B2132 /* HomeInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorTests.swift; sourceTree = "<group>"; };
+		E38AE626226D33B7004B2132 /* ProductsRequestSpy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProductsRequestSpy.json; sourceTree = "<group>"; };
+		E38AE629226D399A004B2132 /* HomeWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkerTests.swift; sourceTree = "<group>"; };
+		E38AE630226D3AF3004B2132 /* ApiSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSpy.swift; sourceTree = "<group>"; };
+		E38AE632226D3B04004B2132 /* NetworkSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSpy.swift; sourceTree = "<group>"; };
+		E38AE636226D45DA004B2132 /* HomeRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouterTests.swift; sourceTree = "<group>"; };
+		E38AE639226D477C004B2132 /* DetailRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouterTests.swift; sourceTree = "<group>"; };
+		E38AE63D226D4C77004B2132 /* DetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControllerTests.swift; sourceTree = "<group>"; };
 		E3A50525226A4B89003C4A47 /* GIFRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFRefreshControl.swift; sourceTree = "<group>"; };
-		E3A5052D226A62FD003C4A47 /* pull_to_refresh.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pull_to_refresh.gif; sourceTree = "<group>"; };
 		E3A50532226A6487003C4A47 /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		E3A50538226A6BA9003C4A47 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		E3A5053A226A818B003C4A47 /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
@@ -171,6 +203,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38AE621226D1449004B2132 /* Quick.framework in Frameworks */,
+				E38AE620226D1445004B2132 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,10 +221,10 @@
 		E36865D7226A33AB0087A234 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E38AE61C226D1377004B2132 /* Nimble.framework */,
+				E38AE61D226D1377004B2132 /* Quick.framework */,
 				E312A580226AAAB500097BCE /* Alamofire.framework */,
 				E312A57F226AAAB500097BCE /* Kingfisher.framework */,
-				E36865E2226A3F070087A234 /* SwiftGif.framework */,
-				E36865D8226A33AB0087A234 /* SwiftPullToRefresh.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,9 +248,9 @@
 				E3857302226A04F200602DB4 /* EnjoeiUITests */,
 				E38572E1226A04EF00602DB4 /* Products */,
 				E36865D7226A33AB0087A234 /* Frameworks */,
+				E38AE601226D0958004B2132 /* Gifs */,
 				E312A57D226AA87A00097BCE /* .gitignore */,
 				E36865D5226A32D90087A234 /* Cartfile */,
-				E3A5052D226A62FD003C4A47 /* pull_to_refresh.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -245,8 +279,9 @@
 		E38572F7226A04F200602DB4 /* EnjoeiTests */ = {
 			isa = PBXGroup;
 			children = (
-				E38572F8226A04F200602DB4 /* EnjoeiTests.swift */,
-				E38572FA226A04F200602DB4 /* Info.plist */,
+				E38AE62B226D3ABC004B2132 /* Commons */,
+				E38AE604226D0A2D004B2132 /* Modules */,
+				E38AE603226D0A08004B2132 /* SupportFiles */,
 			);
 			path = EnjoeiTests;
 			sourceTree = "<group>";
@@ -435,6 +470,100 @@
 			path = AlertView;
 			sourceTree = "<group>";
 		};
+		E38AE603226D0A08004B2132 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE607226D0ADE004B2132 /* EnjoeiTests-Bridging-Header.h */,
+				E38572FA226A04F200602DB4 /* Info.plist */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		E38AE604226D0A2D004B2132 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE638226D4760004B2132 /* Details */,
+				E38AE605226D0AA3004B2132 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E38AE605226D0AA3004B2132 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE606226D0ABA004B2132 /* Spy */,
+				E38AE612226D11E5004B2132 /* HomeViewControllerTests.swift */,
+				E38AE622226D2B1F004B2132 /* HomePresenterTests.swift */,
+				E38AE624226D3025004B2132 /* HomeInteractorTests.swift */,
+				E38AE629226D399A004B2132 /* HomeWorkerTests.swift */,
+				E38AE636226D45DA004B2132 /* HomeRouterTests.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E38AE606226D0ABA004B2132 /* Spy */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE608226D0ADF004B2132 /* HomeViewControllerSpy.swift */,
+				E38AE60A226D0DA6004B2132 /* HomePresenterSpy.swift */,
+				E38AE60C226D0FD8004B2132 /* HomeInteractorSpy.swift */,
+				E38AE60E226D10BF004B2132 /* HomeWorkerSpy.swift */,
+				E38AE610226D114C004B2132 /* HomeRouterSpy.swift */,
+				E38AE626226D33B7004B2132 /* ProductsRequestSpy.json */,
+			);
+			path = Spy;
+			sourceTree = "<group>";
+		};
+		E38AE62B226D3ABC004B2132 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE62C226D3AC3004B2132 /* Libs */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		E38AE62C226D3AC3004B2132 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE62D226D3ACB004B2132 /* Project */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		E38AE62D226D3ACB004B2132 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE62E226D3AD2004B2132 /* Api */,
+				E38AE62F226D3AD9004B2132 /* Network */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		E38AE62E226D3AD2004B2132 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE630226D3AF3004B2132 /* ApiSpy.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		E38AE62F226D3AD9004B2132 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE632226D3B04004B2132 /* NetworkSpy.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E38AE638226D4760004B2132 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				E38AE63D226D4C77004B2132 /* DetailViewControllerTests.swift */,
+				E38AE639226D477C004B2132 /* DetailRouterTests.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		E3A50524226A4B7B003C4A47 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -618,6 +747,7 @@
 					};
 					E38572F3226A04F200602DB4 = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 						TestTargetID = E38572DF226A04EF00602DB4;
 					};
 					E38572FE226A04F200602DB4 = {
@@ -653,11 +783,12 @@
 			files = (
 				E36865D6226A32D90087A234 /* Cartfile in Resources */,
 				E3F033DC226B9B41008E9500 /* UploadViewController.xib in Resources */,
-				E3A5052E226A62FE003C4A47 /* pull_to_refresh.gif in Resources */,
 				E38AE5F2226CF261004B2132 /* Assets.xcassets in Resources */,
+				E38AE602226D0959004B2132 /* Gifs in Resources */,
 				E3857327226A212F00602DB4 /* ProximaNova-Semibold.otf in Resources */,
 				E3857323226A212F00602DB4 /* ProximaNova-Regular.otf in Resources */,
 				E38AE5EC226CE791004B2132 /* HomeHeader.xib in Resources */,
+				E38AE628226D3540004B2132 /* ProductsRequestSpy.json in Resources */,
 				E38572EE226A04F100602DB4 /* LaunchScreen.storyboard in Resources */,
 				E3F033D2226B9833008E9500 /* InboxViewController.xib in Resources */,
 				E3857325226A212F00602DB4 /* ProximaNova-Light.otf in Resources */,
@@ -678,6 +809,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38AE627226D33B7004B2132 /* ProductsRequestSpy.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -701,6 +833,8 @@
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
 			);
 			name = Carthage;
 			outputFileListPaths = (
@@ -761,7 +895,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38572F9226A04F200602DB4 /* EnjoeiTests.swift in Sources */,
+				E38AE60B226D0DA6004B2132 /* HomePresenterSpy.swift in Sources */,
+				E38AE637226D45DA004B2132 /* HomeRouterTests.swift in Sources */,
+				E38AE613226D11E5004B2132 /* HomeViewControllerTests.swift in Sources */,
+				E38AE63A226D477C004B2132 /* DetailRouterTests.swift in Sources */,
+				E38AE60F226D10BF004B2132 /* HomeWorkerSpy.swift in Sources */,
+				E38AE62A226D399A004B2132 /* HomeWorkerTests.swift in Sources */,
+				E38AE625226D3025004B2132 /* HomeInteractorTests.swift in Sources */,
+				E38AE623226D2B1F004B2132 /* HomePresenterTests.swift in Sources */,
+				E38AE60D226D0FD8004B2132 /* HomeInteractorSpy.swift in Sources */,
+				E38AE633226D3B04004B2132 /* NetworkSpy.swift in Sources */,
+				E38AE609226D0ADF004B2132 /* HomeViewControllerSpy.swift in Sources */,
+				E38AE63E226D4C77004B2132 /* DetailViewControllerTests.swift in Sources */,
+				E38AE611226D114C004B2132 /* HomeRouterSpy.swift in Sources */,
+				E38AE631226D3AF3004B2132 /* ApiSpy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,9 +1114,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPQRN7QUXG;
-				INFOPLIST_FILE = EnjoeiTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = EnjoeiTests/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -977,6 +1129,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.julianoterres.EnjoeiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EnjoeiTests/SupportFiles/EnjoeiTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enjoei.app/Enjoei";
@@ -988,9 +1142,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XPQRN7QUXG;
-				INFOPLIST_FILE = EnjoeiTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = EnjoeiTests/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -998,6 +1157,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.julianoterres.EnjoeiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EnjoeiTests/SupportFiles/EnjoeiTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Enjoei.app/Enjoei";

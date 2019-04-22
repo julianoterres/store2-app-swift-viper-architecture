@@ -13,7 +13,7 @@ extension HomeWorker: HomeInteractorToWorkerProtocol {
   
   func fetchProductsInitial() {
     guard let url = api?.urlInitial else {
-      interactor?.fetchedDealsFail(message: "Error to get url api")
+      interactor?.fetchedProductsFail(message: "Error to get url api")
       return
     }
     fetchProducts(url: url, typeFetch: .initial)
@@ -21,7 +21,7 @@ extension HomeWorker: HomeInteractorToWorkerProtocol {
   
   func fetchProductsPullToRefresh() {
     guard let url = api?.urlPullRefresh else {
-      interactor?.fetchedDealsFail(message: "Error to get url api")
+      interactor?.fetchedProductsFail(message: "Error to get url api")
       return
     }
     fetchProducts(url: url, typeFetch: .pullToRefresh)
@@ -29,7 +29,7 @@ extension HomeWorker: HomeInteractorToWorkerProtocol {
   
   func fetchProductsPagination() {
     guard let url = api?.urlPagination else {
-      interactor?.fetchedDealsFail(message: "Error to get url api")
+      interactor?.fetchedProductsFail(message: "Error to get url api")
       return
     }
     fetchProducts(url: url, typeFetch: .pagination)
@@ -41,10 +41,10 @@ extension HomeWorker: HomeInteractorToWorkerProtocol {
         let productsResponseApi = try JSONDecoder().decode(ProductsResponseApiEntity.self, from: response)
         self.interactor?.fetchedProducts(response: productsResponseApi, typeFetch: typeFetch)
       } catch let error {
-        self.interactor?.fetchedDealsFail(message: error.localizedDescription)
+        self.interactor?.fetchedProductsFail(message: error.localizedDescription)
       }
     }, failure: { (error) in
-      self.interactor?.fetchedDealsFail(message: error)
+      self.interactor?.fetchedProductsFail(message: error)
     })
   }
   

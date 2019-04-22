@@ -21,6 +21,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailViewController" customModule="Enjoei" customModuleProvider="target">
             <connections>
                 <outlet property="collectionView" destination="lct-vD-Tch" id="xUd-ne-uD1"/>
+                <outlet property="collectionViewTopConstraint" destination="A8g-RM-ewd" id="hDo-X6-1en"/>
                 <outlet property="installmentsLabel" destination="i4a-aO-5N7" id="fAF-UG-fyl"/>
                 <outlet property="pageControl" destination="JNs-Ep-veO" id="JNE-nQ-fLr"/>
                 <outlet property="priceFinalLabel" destination="zi6-Tv-zjD" id="qNf-ct-WGz"/>
@@ -34,66 +35,81 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lct-vD-Tch">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="445"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="445" id="umB-zj-b7J"/>
-                    </constraints>
-                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="uvJ-m6-pZd">
-                        <size key="itemSize" width="414" height="379"/>
-                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                    </collectionViewFlowLayout>
-                    <cells/>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="5qA-5r-bpR"/>
-                        <outlet property="delegate" destination="-1" id="bGq-CH-YJh"/>
-                    </connections>
-                </collectionView>
-                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="JNs-Ep-veO">
-                    <rect key="frame" x="0.0" y="408" width="414" height="37"/>
-                    <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    <color key="currentPageIndicatorTintColor" red="0.90980392160000001" green="0.33725490200000002" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                </pageControl>
-                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4VM-Id-ENk">
-                    <rect key="frame" x="20" y="465" width="151" height="26"/>
+                <scrollView multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBV-Xe-u4L">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 220" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Llb-NM-iIg">
-                            <rect key="frame" x="0.0" y="0.0" width="70.5" height="26"/>
-                            <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="22"/>
-                            <color key="textColor" red="0.792156862745098" green="0.77254901960784317" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lct-vD-Tch">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="445"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="445" id="rT0-Pl-8h8"/>
+                            </constraints>
+                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="uvJ-m6-pZd">
+                                <size key="itemSize" width="414" height="379"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                            <cells/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="5qA-5r-bpR"/>
+                                <outlet property="delegate" destination="-1" id="bGq-CH-YJh"/>
+                            </connections>
+                        </collectionView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4VM-Id-ENk">
+                            <rect key="frame" x="20" y="465" width="157" height="26.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 220" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Llb-NM-iIg">
+                                    <rect key="frame" x="0.0" y="0.0" width="73.5" height="26.5"/>
+                                    <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="22"/>
+                                    <color key="textColor" red="0.792156862745098" green="0.77254901960784317" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 220" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zi6-Tv-zjD">
+                                    <rect key="frame" x="83.5" y="0.0" width="73.5" height="26.5"/>
+                                    <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="22"/>
+                                    <color key="textColor" red="0.96862745100000003" green="0.44705882349999998" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20% OFF EM ATÉ 12X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4a-aO-5N7">
+                            <rect key="frame" x="20" y="501.5" width="132.5" height="17"/>
+                            <fontDescription key="fontDescription" name="ProximaNova-Light" family="Proxima Nova" pointSize="14"/>
+                            <color key="textColor" red="0.49019607840000001" green="0.47843137250000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 220" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zi6-Tv-zjD">
-                            <rect key="frame" x="80.5" y="0.0" width="70.5" height="26"/>
-                            <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="22"/>
-                            <color key="textColor" red="0.96862745100000003" green="0.44705882349999998" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                        <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="JNs-Ep-veO">
+                            <rect key="frame" x="0.0" y="408" width="414" height="37"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="37" id="oNe-AB-9IL"/>
+                            </constraints>
+                            <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="currentPageIndicatorTintColor" red="0.90980392160000001" green="0.33725490200000002" blue="0.3411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </pageControl>
                     </subviews>
-                </stackView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20% OFF EM ATÉ 12X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4a-aO-5N7">
-                    <rect key="frame" x="20" y="501" width="141.5" height="16.5"/>
-                    <fontDescription key="fontDescription" name="ProximaNova-Light" family="Proxima Nova" pointSize="14"/>
-                    <color key="textColor" red="0.49019607840000001" green="0.47843137250000001" blue="0.46666666670000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                    <constraints>
+                        <constraint firstItem="lct-vD-Tch" firstAttribute="top" secondItem="MBV-Xe-u4L" secondAttribute="top" id="A8g-RM-ewd"/>
+                        <constraint firstItem="lct-vD-Tch" firstAttribute="leading" secondItem="MBV-Xe-u4L" secondAttribute="leading" id="BX5-Zm-dbB"/>
+                        <constraint firstItem="i4a-aO-5N7" firstAttribute="top" secondItem="4VM-Id-ENk" secondAttribute="bottom" constant="10" id="Km6-is-cNe"/>
+                        <constraint firstItem="JNs-Ep-veO" firstAttribute="leading" secondItem="MBV-Xe-u4L" secondAttribute="leading" id="Qi6-ad-KUQ"/>
+                        <constraint firstItem="JNs-Ep-veO" firstAttribute="top" secondItem="lct-vD-Tch" secondAttribute="bottom" constant="-37" id="UTZ-dD-h3k"/>
+                        <constraint firstAttribute="bottom" secondItem="i4a-aO-5N7" secondAttribute="bottom" constant="20" id="Xkv-Vd-v8e"/>
+                        <constraint firstAttribute="trailing" secondItem="JNs-Ep-veO" secondAttribute="trailing" id="bQ9-4g-5jZ"/>
+                        <constraint firstAttribute="trailing" secondItem="lct-vD-Tch" secondAttribute="trailing" id="cb3-Ly-4az"/>
+                        <constraint firstItem="4VM-Id-ENk" firstAttribute="leading" secondItem="MBV-Xe-u4L" secondAttribute="leading" constant="20" id="kno-LO-3OB"/>
+                        <constraint firstItem="4VM-Id-ENk" firstAttribute="top" secondItem="lct-vD-Tch" secondAttribute="bottom" constant="20" id="rGR-g4-GSR"/>
+                        <constraint firstItem="i4a-aO-5N7" firstAttribute="leading" secondItem="MBV-Xe-u4L" secondAttribute="leading" constant="20" id="sNq-rn-t97"/>
+                        <constraint firstItem="lct-vD-Tch" firstAttribute="centerX" secondItem="MBV-Xe-u4L" secondAttribute="centerX" id="tMq-5h-Z5z"/>
+                    </constraints>
+                </scrollView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="4VM-Id-ENk" firstAttribute="leading" secondItem="UPG-nS-Z9o" secondAttribute="leading" constant="20" id="0UR-BH-PZ3"/>
-                <constraint firstItem="UPG-nS-Z9o" firstAttribute="trailing" secondItem="JNs-Ep-veO" secondAttribute="trailing" id="3sN-tJ-Gba"/>
-                <constraint firstItem="JNs-Ep-veO" firstAttribute="bottom" secondItem="lct-vD-Tch" secondAttribute="bottom" id="40P-qg-g32"/>
-                <constraint firstItem="i4a-aO-5N7" firstAttribute="leading" secondItem="UPG-nS-Z9o" secondAttribute="leading" constant="20" id="Rd8-ok-ZPb"/>
-                <constraint firstItem="JNs-Ep-veO" firstAttribute="centerX" secondItem="lct-vD-Tch" secondAttribute="centerX" id="UNW-Jn-MI3"/>
-                <constraint firstItem="lct-vD-Tch" firstAttribute="leading" secondItem="UPG-nS-Z9o" secondAttribute="leading" id="Wbs-CJ-QU5"/>
-                <constraint firstItem="lct-vD-Tch" firstAttribute="top" secondItem="Qs1-Qt-VG4" secondAttribute="top" id="YhX-uE-Vcv"/>
-                <constraint firstItem="i4a-aO-5N7" firstAttribute="top" secondItem="4VM-Id-ENk" secondAttribute="bottom" constant="10" id="ZUD-Ll-i7E"/>
-                <constraint firstItem="JNs-Ep-veO" firstAttribute="leading" secondItem="UPG-nS-Z9o" secondAttribute="leading" id="iyp-dH-fva"/>
-                <constraint firstItem="4VM-Id-ENk" firstAttribute="top" secondItem="lct-vD-Tch" secondAttribute="bottom" constant="20" id="jZ8-tM-ZHj"/>
-                <constraint firstItem="UPG-nS-Z9o" firstAttribute="trailing" secondItem="lct-vD-Tch" secondAttribute="trailing" id="zX2-kT-H1t"/>
+                <constraint firstItem="UPG-nS-Z9o" firstAttribute="bottom" secondItem="MBV-Xe-u4L" secondAttribute="bottom" id="Dln-qf-DfX"/>
+                <constraint firstItem="MBV-Xe-u4L" firstAttribute="top" secondItem="UPG-nS-Z9o" secondAttribute="top" id="Jh4-rO-FXs"/>
+                <constraint firstItem="UPG-nS-Z9o" firstAttribute="trailing" secondItem="MBV-Xe-u4L" secondAttribute="trailing" id="NWw-6Y-Gg0"/>
+                <constraint firstItem="MBV-Xe-u4L" firstAttribute="leading" secondItem="UPG-nS-Z9o" secondAttribute="leading" id="xyz-dn-e2c"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="UPG-nS-Z9o"/>
         </view>

@@ -9,6 +9,7 @@ class DetailViewController: UIViewController {
   @IBOutlet weak var priceFinalLabel: UILabel!
   @IBOutlet weak var installmentsLabel: UILabel!
   @IBOutlet weak var stackViewPrices: UIStackView!
+  @IBOutlet weak var collectionViewTopConstraint: NSLayoutConstraint!
   
   var product: ProductViewEntity!
   var collectionViewScroolPoint = CGFloat(0)
@@ -26,13 +27,18 @@ class DetailViewController: UIViewController {
     super.viewDidLoad()
     navigationController?.setTransparent()
     navigationController?.setIconBack()
-    pageControl.numberOfPages = product.images?.count ?? 0
     automaticallyAdjustsScrollViewInsets = false
+    setupPageControl()
     setupCollectionView()
     setupPrices()
   }
   
+  func setupPageControl() {
+    pageControl.numberOfPages = product.images?.count ?? 0
+  }
+  
   func setupCollectionView() {
+    collectionViewTopConstraint.constant = -(UIApplication.shared.statusBarFrame.size.height + 44)
     collectionView.register(DetailCell.self, forCellWithReuseIdentifier: DetailCell.reusubleIdentifier)
   }
   

@@ -83,9 +83,9 @@ extension HomeInteractor: HomeWorkerToInteractorProtocol {
     presenter?.fetchedProducts(produtcts: products, typeFetch: typeFetch)
   }
   
-  func fetchedDealsFail(message: String) {
+  func fetchedProductsFail(message: String) {
     fetchProductsActive = false
-    presenter?.fetchedDealsFail(message: message)
+    presenter?.fetchedProductsFail(message: message)
   }
   
 }

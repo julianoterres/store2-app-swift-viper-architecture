@@ -22,6 +22,7 @@ protocol HomePresenterToRouterProtocol: class {
 
 protocol HomeInteractorProtocol: class {
   var presenter: HomeInteractorToPresenterProtocol? { get set }
+  var worker: HomeInteractorToWorkerProtocol? { get set }
 }
 
 protocol HomePresenterToInteractorProtocol: class {
@@ -30,12 +31,13 @@ protocol HomePresenterToInteractorProtocol: class {
 
 protocol HomeInteractorToPresenterProtocol: class {
   func fetchedProducts(produtcts: [ProductViewEntity], typeFetch: TypeFetchProductsEnum)
-  func fetchedDealsFail(message: String)
+  func fetchedProductsFail(message: String)
 }
 
 protocol HomeWorkerProtocol: class {
   var interactor: HomeWorkerToInteractorProtocol? { get set }
   var network: NetworkProtocol? { get set }
+  var api: APIProtocol? { get set }
   func fetchProducts(url: URL, typeFetch: TypeFetchProductsEnum)
 }
 
@@ -47,7 +49,7 @@ protocol HomeInteractorToWorkerProtocol: class {
 
 protocol HomeWorkerToInteractorProtocol: class {
   func fetchedProducts(response: ProductsResponseApiEntity, typeFetch: TypeFetchProductsEnum)
-  func fetchedDealsFail(message: String)
+  func fetchedProductsFail(message: String)
 }
 
 protocol HomeRouterProtocol: class {

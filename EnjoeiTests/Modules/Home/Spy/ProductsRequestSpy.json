@@ -1,0 +1,2353 @@
+{
+  "pagination" : {
+    "current_page" : 1,
+    "next_page" : 2,
+    "total_entries" : 637393,
+    "page_size" : 16
+  },
+  "smart_match_suggestions" : [
+    
+  ],
+  "include_my_size" : false,
+  "more" : null,
+  "products" : [
+    {
+      "categories" : {
+        "subcategory" : "blazer",
+        "category" : "roupas",
+        "department" : "rapazes"
+      },
+      "user" : {
+        "description" : "",
+        "id" : 1023774,
+        "state" : "MG",
+        "href" : "\/isabelabhz",
+        "title" : "isabela amaral",
+        "seller_paid_sells_count" : 401,
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzEwMjM3NzQvNmEzZGY1MWRiZTM4YWI2YjMyZDZjNTc0NTgyMTRlNzEuanBn"
+        },
+        "city" : "Lagoa Santa",
+        "nickname" : "isabelabhz",
+        "email" : "isaddabh@gmail.com",
+        "gender" : "F",
+        "name" : "isabela amaral"
+      },
+      "published_comments_count" : 0,
+      "id" : 32460821,
+      "user_id" : 1023774,
+      "weight" : 0.5,
+      "state" : "published",
+      "sku" : null,
+      "used" : true,
+      "title" : "terno delucca (blazer + calça)",
+      "like_user_ids" : [
+        
+      ],
+      "average_price" : null,
+      "promoted_step" : 0,
+      "href" : "\/p\/terno-delucca-paleto-e-calca-32460821?product_id=32460821",
+      "maximum_installment" : 12,
+      "published_at" : "2019-02-03T22:01:05-02:00",
+      "price_unformatted" : "125",
+      "slug" : "terno-delucca-paleto-e-calca",
+      "available_units" : true,
+      "minimum_price_integer" : 100,
+      "brand" : "delucca",
+      "location" : {
+        "lon" : -43.958672900000003,
+        "lat" : -19.813434399999998
+      },
+      "price" : 125,
+      "seo_tags" : null,
+      "colors" : [
+        
+      ],
+      "sold_units" : false,
+      "size" : "M",
+      "default_photo" : {
+        "selected" : true,
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDIzNzc0LzdiN2ViMWFiYzgzZjYzMDFhZTY1M2M3NmYzNTAwODE5LmpwZw"
+      },
+      "shipping_type" : 5,
+      "category_id" : 147,
+      "updated_at" : 1549254791.952539,
+      "last_decrease_price_at" : null,
+      "category_slug" : "rapazes-roupas-blazer",
+      "promoted" : true,
+      "normalized_brand" : "delucca",
+      "max_installment_price" : 12.550000000000001,
+      "free_shipping" : false,
+      "department_id" : 131,
+      "locked_by" : null,
+      "can_be_enabled_by_admin" : false,
+      "inventory_item_id" : null,
+      "promoted_view" : true,
+      "tags" : null,
+      "created_at" : "2019-02-03T21:45:16-02:00",
+      "original_price_unformatted" : "125",
+      "user_details" : null,
+      "initial_quantity" : 1,
+      "saleability_sb" : 0.97544689554838915,
+      "content" : ". usado 1 vez pelo irmão da noiva. esta em excelente estado de conservação!\r\n. medidas do blazer: ombro a ombro 48cm, manga 62cm, comprimento 77cm\r\n. medidas da calça: cintura 90cm, comprimento 99cm\r\n. cor: cinza chumbo e listras de giz",
+      "saleability_sc" : "0.13607871478310385",
+      "original_price_integer" : 125,
+      "can_be_disabled_by_admin" : true,
+      "price_float" : 125,
+      "first_published_at_rounded_by_week" : "2019-01-28",
+      "curator" : null,
+      "quantity" : 1,
+      "likes_count" : 0,
+      "photos" : [
+        {
+          "selected" : true,
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDIzNzc0LzdiN2ViMWFiYzgzZjYzMDFhZTY1M2M3NmYzNTAwODE5LmpwZw"
+        },
+        {
+          "selected" : false,
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDIzNzc0LzU4Y2NiZjcxYTA2ZDg1NTQyMjU2YWMzNjc5NThjMzNjLmpwZw"
+        },
+        {
+          "selected" : false,
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDIzNzc0LzJjYTFjZjQxNzNiNDhkZjE3MGFkMzE5NTlmY2M3M2U0LmpwZw"
+        },
+        {
+          "selected" : false,
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDIzNzc0LzRmOTI5MDZiNmRjZjhlMTc3NjRhZTA2NDIwYjVhN2RkLmpwZw"
+        },
+        {
+          "selected" : false,
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDIzNzc0LzE4M2Q3Y2Y2OWY3MTlhNzY4M2QyY2Q3ZTVkMDYzNDFlLmpwZw"
+        }
+      ],
+      "pro_seller" : false,
+      "soft_shipping" : true,
+      "first_published_at" : "2019-02-03T22:01:05-02:00",
+      "discount_percentage" : 0,
+      "most_cheap_shipping_cities_and_states" : [
+        "mg-barao-de-cocais",
+        "mg-belo-horizonte",
+        "mg-betim",
+        "mg-brumadinho",
+        "mg-caete",
+        "mg-capim-branco",
+        "mg-confins",
+        "mg-contagem",
+        "mg-divinopolis",
+        "mg-esmeraldas",
+        "mg-florestal",
+        "mg-funilandia",
+        "mg-ibirite",
+        "mg-igarape",
+        "mg-itabirito",
+        "mg-itauna",
+        "mg-jaboticatubas",
+        "mg-juatuba",
+        "mg-lagoa-santa",
+        "mg-mario-campos",
+        "mg-mateus-leme",
+        "mg-matozinhos",
+        "mg-nova-lima",
+        "mg-nova-uniao",
+        "mg-para-de-minas",
+        "mg-pedro-leopoldo",
+        "mg-prudente-de-morais",
+        "mg-raposos",
+        "mg-ribeirao-das-neves",
+        "mg-rio-acima",
+        "mg-sabara",
+        "mg-santa-luzia",
+        "mg-sao-joaquim-de-bicas",
+        "mg-sao-jose-da-lapa",
+        "mg-sarzedo",
+        "mg-sete-lagoas",
+        "mg-taquaracu-de-minas",
+        "mg-vespasiano"
+      ],
+      "seo_title" : "terno delucca (paletó e calça)"
+    },
+    {
+      "categories" : {
+        "subcategory" : "rasteirinha",
+        "category" : "calçados",
+        "department" : "moças"
+      },
+      "user" : {
+        "description" : "Para pessoas que querem um mundo melhor e mais sustentável, reciclando, reutilizando e dando vida e utilização para uma peça que alguém não usa mais.",
+        "id" : 1000801,
+        "state" : "SP",
+        "href" : "\/luciana-82d650",
+        "title" : "Coisas da LuLuzinha",
+        "seller_paid_sells_count" : 267,
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzEwMDA4MDEvZmEyOGI0NWQ3YTljMWU2ZDU1YzFkYWNhNzg3ODg4MjEuanBn"
+        },
+        "city" : "São Paulo",
+        "nickname" : "luciana-82d650",
+        "email" : "lucianalmeida@ig.com.br",
+        "gender" : "F",
+        "name" : "Luciana Carvalho de Almeida"
+      },
+      "published_comments_count" : 0,
+      "id" : 31817846,
+      "user_id" : 1000801,
+      "weight" : 1,
+      "state" : "published",
+      "sku" : null,
+      "used" : true,
+      "title" : "chinelo melissa",
+      "like_user_ids" : [
+        8020512,
+        10850129,
+        9661974,
+        863576,
+        850783,
+        4472254,
+        10502053,
+        6151659
+      ],
+      "average_price" : 39.850000000000001,
+      "promoted_step" : 0,
+      "href" : "\/p\/chinelo-melissa-31817846?product_id=31817846",
+      "maximum_installment" : 8,
+      "published_at" : "2019-01-02T20:29:07-02:00",
+      "price_unformatted" : "40",
+      "slug" : "chinelo-melissa",
+      "available_units" : true,
+      "minimum_price_integer" : 28,
+      "brand" : "melissa",
+      "location" : {
+        "lon" : -46.634470200000003,
+        "lat" : -23.472521499999999
+      },
+      "price" : 40,
+      "seo_tags" : null,
+      "colors" : [
+        
+      ],
+      "sold_units" : false,
+      "size" : "37",
+      "default_photo" : {
+        "selected" : true,
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDAwODAxLzNiN2M5ZjM3YWEyYjViNGI5NTUxYmExYTg3YmUzZmQ0LmpwZw"
+      },
+      "shipping_type" : 1,
+      "category_id" : 253,
+      "updated_at" : 1549279647.0201249,
+      "last_decrease_price_at" : null,
+      "category_slug" : "mocas-calcados-rasteirinha",
+      "promoted" : true,
+      "normalized_brand" : "melissa",
+      "max_installment_price" : 5.7000000000000002,
+      "free_shipping" : false,
+      "department_id" : 224,
+      "locked_by" : null,
+      "can_be_enabled_by_admin" : false,
+      "inventory_item_id" : null,
+      "promoted_view" : true,
+      "tags" : null,
+      "created_at" : "2019-01-02T20:22:08-02:00",
+      "original_price_unformatted" : "40",
+      "user_details" : null,
+      "initial_quantity" : 1,
+      "saleability_sb" : 0.33244290923552738,
+      "content" : "chinelo melissa tamanho 37 cor preta",
+      "saleability_sc" : 0.079318977939539792,
+      "original_price_integer" : 40,
+      "can_be_disabled_by_admin" : true,
+      "price_float" : 40,
+      "first_published_at_rounded_by_week" : "2018-12-31",
+      "curator" : null,
+      "quantity" : 1,
+      "likes_count" : 8,
+      "photos" : [
+        {
+          "selected" : true,
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDAwODAxLzNiN2M5ZjM3YWEyYjViNGI5NTUxYmExYTg3YmUzZmQ0LmpwZw"
+        },
+        {
+          "selected" : false,
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDAwODAxLzlkOTlhNzk2NGY2NjMzOTU5MWQxYzhjYTY3MGNiZDg5LmpwZw"
+        },
+        {
+          "selected" : false,
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDAwODAxL2FhMmVmMDg2NzVjYWU4NzE5NzJmNTk3MWRhYmI4MTJiLmpwZw"
+        },
+        {
+          "selected" : false,
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDAwODAxLzZkOTYyYTljNDY0ZjE4YzljOTkyN2ZhZTFlN2IwYTcwLmpwZw"
+        }
+      ],
+      "pro_seller" : false,
+      "soft_shipping" : false,
+      "first_published_at" : "2019-01-02T20:29:07-02:00",
+      "discount_percentage" : 0,
+      "most_cheap_shipping_cities_and_states" : [
+        "mg-extrema",
+        "sp-americana",
+        "sp-araras",
+        "sp-artur-nogueira",
+        "sp-aruja",
+        "sp-atibaia",
+        "sp-barueri",
+        "sp-braganca-paulista",
+        "sp-caieiras",
+        "sp-cajamar",
+        "sp-campinas",
+        "sp-carapicuiba",
+        "sp-cosmopolis",
+        "sp-cotia",
+        "sp-cubatao",
+        "sp-diadema",
+        "sp-embu-das-artes",
+        "sp-embu-guacu",
+        "sp-engenheiro-coelho",
+        "sp-ferraz-de-vasconcelos",
+        "sp-francisco-morato",
+        "sp-franco-da-rocha",
+        "sp-guaruja",
+        "sp-guarulhos",
+        "sp-holambra",
+        "sp-hortolandia",
+        "sp-indaiatuba",
+        "sp-itapecerica-da-serra",
+        "sp-itapevi",
+        "sp-itaquaquecetuba",
+        "sp-itatiba",
+        "sp-itu",
+        "sp-jacarei",
+        "sp-jaguariuna",
+        "sp-jandira",
+        "sp-jundiai",
+        "sp-limeira",
+        "sp-mairipora",
+        "sp-maua",
+        "sp-mogi-das-cruzes",
+        "sp-mogi-guacu",
+        "sp-mogi-mirim",
+        "sp-monte-mor",
+        "sp-nova-odessa",
+        "sp-osasco",
+        "sp-paulinia",
+        "sp-pedreira",
+        "sp-piracicaba",
+        "sp-pirapora-do-bom-jesus",
+        "sp-poa",
+        "sp-praia-grande",
+        "sp-ribeirao-pires",
+        "sp-rio-claro",
+        "sp-rio-grande-da-serra",
+        "sp-salto",
+        "sp-santa-barbara-d-oeste",
+        "sp-santa-isabel",
+        "sp-santana-de-parnaiba",
+        "sp-santo-andre",
+        "sp-santo-antonio-de-posse",
+        "sp-santos",
+        "sp-sao-bernardo-do-campo",
+        "sp-sao-caetano-do-sul",
+        "sp-sao-jose-dos-campos",
+        "sp-sao-lourenco-da-serra",
+        "sp-sao-paulo",
+        "sp-sao-roque",
+        "sp-sao-vicente",
+        "sp-sorocaba",
+        "sp-sumare",
+        "sp-suzano",
+        "sp-taboao-da-serra",
+        "sp-valinhos",
+        "sp-vargem-grande-paulista",
+        "sp-vinhedo",
+        "sp-votorantim"
+      ],
+      "seo_title" : "chinelo melissa"
+    },
+    {
+      "maximum_installment" : 12,
+      "normalized_brand" : "zara",
+      "promoted_step" : 3,
+      "created_at" : "2019-02-03T19:18:19-02:00",
+      "used" : true,
+      "id" : 32457284,
+      "original_price_integer" : 79,
+      "state" : "published",
+      "like_user_ids" : [
+        4506235,
+        10670536,
+        6743303,
+        9913963,
+        6272105,
+        7320487,
+        265783,
+        1038706,
+        1005153,
+        6974645,
+        6272820,
+        6042482,
+        6986371,
+        1075505,
+        8837337,
+        5193224,
+        8478186,
+        230979,
+        116942,
+        341079,
+        262512,
+        10970501,
+        5727955,
+        10254965,
+        5189276,
+        248032,
+        618603,
+        6131641,
+        10899385,
+        6492221,
+        5581279,
+        4849967,
+        5638511,
+        4526909,
+        281278,
+        311153,
+        6672843,
+        10215231,
+        213127,
+        8953376,
+        7098462,
+        5894131,
+        6987274,
+        469066,
+        5212347
+      ],
+      "slug" : "pantacourt-zara",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 1,
+      "brand" : "zara",
+      "user" : {
+        "gender" : "F",
+        "city" : "Florianópolis",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzkyNzgzMC9jNGYxY2MwNDBiZmJlM2JjMDhhMGRhOWMyYTc0ODRiMC5qcGc"
+        },
+        "nickname" : "danibortoli",
+        "id" : 927830,
+        "title" : "Atenciosamente, Dani!",
+        "href" : "\/danibortoli",
+        "description" : "Produtos seminovos.\r\nAs peças são cuidadosamente selecionadas e o preço é negociável, como exige a nova ideia de consumo consciente, mais sustentável.",
+        "name" : "Daniele De Bortoli",
+        "state" : "SC"
+      },
+      "promoted" : true,
+      "free_shipping" : false,
+      "discount_percentage" : 29,
+      "shipping_type" : 5,
+      "price" : 56,
+      "seo_title" : "pantacourt zara",
+      "tags" : null,
+      "content" : "faz sacolinha. consigo dar desconto em mais produtos. \nmacacão pantacourt da zara, preto, modelo leve e flexível, modelo reto. veste perfeitamente. \nde ótima qualidade bem conservado..",
+      "size" : "M",
+      "user_id" : 927830,
+      "original_price_unformatted" : "79",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "56",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "79",
+          "discount_percentage" : 29,
+          "promotion_slug" : "fev30",
+          "promotion_id" : 1253
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "60",
+          "starts_at" : "2019-01-10T00:00:00-02:00",
+          "product_price" : "79",
+          "discount_percentage" : 24,
+          "promotion_slug" : "2019-25",
+          "promotion_id" : 1023
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "64",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "79",
+          "discount_percentage" : 18,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "68",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "79",
+          "discount_percentage" : 13,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        }
+      ],
+      "categories" : {
+        "subcategory" : "macacão",
+        "category" : "roupas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/pantacourt-zara-32457284?product_id=32457284",
+      "awesomeness" : 3,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85Mjc4MzAvNTg4NjQ5NDkzNzNjOGJlMWNhOWYyMTBmODRmMTYzMTEuanBn"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85Mjc4MzAvYmNkYTFkYjgyOTg1YjE4Nzk1N2VmNjgyMjJiOWJlOWEuanBn"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85Mjc4MzAvM2UxMGE2Y2IxZGIyYzA2YzU1NzNiMGRjNGJlYTY4NGIuanBn"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85Mjc4MzAvYTkyMTIwYWQ2YWMxZTE1ZThkNmUxNTEwODhkN2U1ZTcuanBn"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85Mjc4MzAvZmNlMjE2NGQ2YzI0ZjQzMjQzNDFhZDJmZmU3Yzc4MGQuanBn"
+        }
+      ],
+      "likes_count" : 45,
+      "title" : "pantacourt zara",
+      "category_id" : 245,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85Mjc4MzAvNTg4NjQ5NDkzNzNjOGJlMWNhOWYyMTBmODRmMTYzMTEuanBn"
+      },
+      "category_slug" : "mocas-roupas-macacao",
+      "minimum_price_integer" : 56,
+      "category_tags" : [
+        {
+          "kind" : "shape",
+          "name" : "alcinha"
+        },
+        {
+          "kind" : "shape",
+          "name" : "pantacourt"
+        },
+        {
+          "kind" : "shape",
+          "name" : "decote nas costas"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "fashion"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "básico"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "algodão"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "liso"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "canelado"
+        }
+      ],
+      "price_float" : 79
+    },
+    {
+      "maximum_installment" : 5,
+      "normalized_brand" : "fila",
+      "promoted_step" : 0,
+      "created_at" : "2019-02-02T18:37:51-02:00",
+      "used" : true,
+      "id" : 32439751,
+      "original_price_integer" : 25,
+      "state" : "published",
+      "like_user_ids" : [
+        8539925,
+        8478186,
+        374071,
+        5151808,
+        10885040,
+        9066249,
+        8725728,
+        7476932,
+        10370433,
+        10962456,
+        10968764,
+        10254102,
+        5806649,
+        7249228,
+        10085440,
+        10616637,
+        10967217,
+        10671887,
+        162496,
+        5217401,
+        8911518,
+        4771321,
+        4845258,
+        9449840,
+        5439176,
+        7271209,
+        10943039,
+        10963387
+      ],
+      "slug" : "shorts-rosa-de-veludo-42",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 4,
+      "brand" : "fila",
+      "user" : {
+        "gender" : "F",
+        "city" : "Curitiba",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzUyNzQwNS8xOGY2YzExMjM5ZDUzNzQ4MzM3YjNlNzgxY2Q4YWUwZi5qcGc"
+        },
+        "nickname" : "espoir",
+        "id" : 527405,
+        "title" : "lojinha da bru benazzi",
+        "href" : "\/espoir",
+        "description" : "fofurices de ótima qualidade, é verdade sim. Ei, dá um look e presenteie!",
+        "name" : "Bruna Benazzi",
+        "state" : "PR"
+      },
+      "promoted" : null,
+      "free_shipping" : false,
+      "discount_percentage" : 28,
+      "shipping_type" : 5,
+      "price" : 18,
+      "seo_title" : "shorts rosa de veludo 42",
+      "tags" : null,
+      "content" : "shorts rosa de veludo tamanho 42 usado fila\n70cm de cintura sem esticar (ela ainda tem elastano) \n37cm de cós, 35cm largura de coxa!",
+      "size" : "42",
+      "user_id" : 527405,
+      "original_price_unformatted" : "25",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "18",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "25",
+          "discount_percentage" : 28,
+          "promotion_slug" : "fev30",
+          "promotion_id" : 1253
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-09T23:59:59-02:00",
+          "price" : "18",
+          "starts_at" : "2018-12-28T00:00:00-02:00",
+          "product_price" : "25",
+          "discount_percentage" : 28,
+          "promotion_slug" : "19short-30",
+          "promotion_id" : 1026
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "19",
+          "starts_at" : "2019-01-10T00:00:00-02:00",
+          "product_price" : "25",
+          "discount_percentage" : 24,
+          "promotion_slug" : "2019-25",
+          "promotion_id" : 1023
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "20",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "25",
+          "discount_percentage" : 20,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "22",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "25",
+          "discount_percentage" : 12,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        }
+      ],
+      "categories" : {
+        "subcategory" : "short",
+        "category" : "roupas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/shorts-rosa-de-veludo-42-32439751?product_id=32439751",
+      "awesomeness" : 2,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy81Mjc0MDUvZGRmNjFkOWJlYzBkMTU2NmVmNGFmYjI4OTZkZTdmZTQuanBn"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy81Mjc0MDUvNmJkMGMyZDViZTVhNTUyZTAwNWE0M2IyNzk2Y2M5YTUuanBn"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy81Mjc0MDUvYzVhODQ4ZDdlMmZiZmU4MzZkNWU3NTE1YmE0MzY0MDIuanBn"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy81Mjc0MDUvMDg0MGQ5NTY5YWM1NzQ4NTdlN2IxODVkODJkNTYzMWIuanBn"
+        }
+      ],
+      "likes_count" : 28,
+      "title" : "shorts rosa de veludo 42",
+      "category_id" : 247,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy81Mjc0MDUvZGRmNjFkOWJlYzBkMTU2NmVmNGFmYjI4OTZkZTdmZTQuanBn"
+      },
+      "category_slug" : "mocas-roupas-short",
+      "minimum_price_integer" : 18,
+      "category_tags" : [
+        {
+          "kind" : "shape",
+          "name" : "cintura alta"
+        },
+        {
+          "kind" : "shape",
+          "name" : "bermuda"
+        },
+        {
+          "kind" : "shape",
+          "name" : "curto"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "básico"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "fashion"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "elastano"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "veludo"
+        }
+      ],
+      "price_float" : 25
+    },
+    {
+      "maximum_installment" : 12,
+      "promoted_step" : 3,
+      "created_at" : "2019-02-02T18:51:59-02:00",
+      "used" : false,
+      "id" : 32440012,
+      "original_price_integer" : 139,
+      "state" : "published",
+      "like_user_ids" : [
+        5309198,
+        4487791,
+        7005651,
+        9809239,
+        348649,
+        5806649,
+        262153,
+        8005655,
+        10613943,
+        10724254,
+        8212951,
+        10076929
+      ],
+      "slug" : "biquini-ripley",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 2,
+      "brand" : "a-barra-l-by-katherine",
+      "user" : {
+        "gender" : "M",
+        "city" : "São Paulo",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzgwMDU2NTUvOWFiMDc0NmY2YjhlYzI2MTA0YTFlZWY3ODY0YjEyMWUuanBn"
+        },
+        "nickname" : "katherine829",
+        "id" : 8005655,
+        "title" : "bikinis katherine",
+        "href" : "\/katherine829",
+        "description" : "todos os nossos produtos são originais, não trabalhamos com réplicas. frete suaviseitor e pagamos o seguro para cada produto enviado. a satisfação dos nossos clientes é prioridade. sinta-se à vontade.",
+        "name" : "katia ferreira",
+        "state" : "SP"
+      },
+      "promoted" : true,
+      "free_shipping" : false,
+      "discount_percentage" : 19,
+      "shipping_type" : 5,
+      "price" : 112,
+      "seo_title" : "biquíni ripley.",
+      "tags" : null,
+      "content" : "lindo biquíni novo com etiqueta na peça.modelo todo forrado, com bojo removível,alças em cruz e click, detalhes de babado na frente, parte de baixo com amarração nas laterais e pingentes nas pontas, modelo ripley. temos somente na cor preta com cobre.tamanho gg. veste 42\/44. caimento impecável",
+      "size" : "GG",
+      "user_id" : 8005655,
+      "original_price_unformatted" : "139",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "112",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "139",
+          "discount_percentage" : 19,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        }
+      ],
+      "categories" : {
+        "subcategory" : null,
+        "category" : "praia",
+        "department" : "moças"
+      },
+      "href" : "\/p\/biquini-ripley-32440012?product_id=32440012",
+      "awesomeness" : 2,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy84MDA1NjU1LzE3YzVhNDZhZjY2ZWVmYTE5MmJhNDQ0OWJhZWI0ZTczLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy84MDA1NjU1L2FkYzdkMmVlMzUxNWFiZmY2ZTk5NDZiNmIyOGVmNjRmLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy84MDA1NjU1L2U3ODQ4YTFhODhhYmM5ZWRlODZiMDJjNjgxMzViMDUwLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy84MDA1NjU1LzdkNTYwY2JhYWEzMDgyOTk0MmM1Mzk5Yjc3NGI0MDU5LmpwZw"
+        }
+      ],
+      "likes_count" : 12,
+      "title" : "biquíni ripley.",
+      "category_id" : 261,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy84MDA1NjU1LzE3YzVhNDZhZjY2ZWVmYTE5MmJhNDQ0OWJhZWI0ZTczLmpwZw"
+      },
+      "category_slug" : "mocas-praia",
+      "minimum_price_integer" : 112,
+      "price_float" : 139,
+      "normalized_brand" : "a-barra-l-by-katherine"
+    },
+    {
+      "maximum_installment" : 10,
+      "promoted_step" : 0,
+      "created_at" : "2019-02-04T00:23:56-02:00",
+      "used" : true,
+      "id" : 32463495,
+      "original_price_integer" : 50,
+      "state" : "published",
+      "like_user_ids" : [
+        5676103,
+        652129,
+        6119146,
+        543104,
+        403204,
+        5529867,
+        8803683
+      ],
+      "slug" : "body-nude",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 0,
+      "brand" : "-",
+      "user" : {
+        "gender" : "F",
+        "city" : "Brasília",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzU1Mjk4NjcvZGM5MGJlZWJkMmIzYTA0YWNhZGFkMDM3ZTdhMDhkZjkuanBn"
+        },
+        "nickname" : "brechiqueee",
+        "id" : 5529867,
+        "title" : "brechique da renatinha",
+        "href" : "\/brechiqueee",
+        "description" : "https:\/\/www.facebook.com\/brechiquebsb",
+        "name" : "renata cristina",
+        "state" : "DF"
+      },
+      "promoted" : null,
+      "free_shipping" : false,
+      "discount_percentage" : 20,
+      "shipping_type" : 5,
+      "price" : 40,
+      "seo_title" : "body nude",
+      "tags" : null,
+      "content" : "body na cor nude, confeccionado em malha cirrê, o modelo possui decote \"u\", bojo no busto, manga curta e modelagem justa.\n\n\nmedidas:\nbusto: 70.0cm\ncintura: 68.0cm\ncomprimento: 70.0cm\n\nadministrado por enjoeipro",
+      "size" : "M",
+      "user_id" : 7394141,
+      "original_price_unformatted" : "50",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "40",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "50",
+          "discount_percentage" : 20,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "43",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "50",
+          "discount_percentage" : 14,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        }
+      ],
+      "categories" : {
+        "subcategory" : "blusas",
+        "category" : "roupas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/body-nude-32463495?product_id=32463495",
+      "awesomeness" : 4,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzNhZmE1ZmY4MzAyMGNiMmRiODgyYjBlYjBlMzg5YmYzLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxL2VkOTc0MjVjOWY5ZmVlYjQzZmI4NzVkMjA3ZTRkNGJkLmpwZw"
+        }
+      ],
+      "likes_count" : 7,
+      "title" : "body nude",
+      "category_id" : 239,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzNhZmE1ZmY4MzAyMGNiMmRiODgyYjBlYjBlMzg5YmYzLmpwZw"
+      },
+      "category_slug" : "mocas-roupas-blusas",
+      "minimum_price_integer" : 40,
+      "price_float" : 50,
+      "normalized_brand" : "sem-marca"
+    },
+    {
+      "maximum_installment" : 12,
+      "promoted_step" : 0,
+      "created_at" : "2019-02-02T00:01:31-02:00",
+      "used" : true,
+      "id" : 32428460,
+      "original_price_integer" : 82,
+      "state" : "published",
+      "like_user_ids" : [
+        5121240,
+        6024726,
+        9434108,
+        30413,
+        5151808,
+        6119146,
+        403204,
+        8000400,
+        10925066,
+        10967312,
+        8803683,
+        6916374,
+        8445694,
+        793381,
+        437349,
+        8990988,
+        4663683,
+        5117166,
+        9123615,
+        661475,
+        69462,
+        1042999,
+        9421629,
+        9541052,
+        47297,
+        5706684,
+        10968622,
+        4654257,
+        6315914,
+        1028474,
+        962535,
+        543910,
+        9622329,
+        635204,
+        10715891,
+        585513,
+        8044643,
+        7821608,
+        4690041,
+        10967505,
+        816806,
+        6996470,
+        9508279,
+        10614819,
+        6250104,
+        6017994,
+        8911518,
+        5909027,
+        5955605,
+        8251940,
+        4843393,
+        631184,
+        7984920,
+        4772520,
+        6820361,
+        10966162,
+        834247,
+        10776346,
+        9714549,
+        5856413,
+        5116261,
+        7125458,
+        8936724,
+        656030,
+        8161,
+        5905056,
+        10588513,
+        10964784,
+        9091801,
+        7993403,
+        4817314,
+        10871518,
+        7711936,
+        9354704,
+        10750626,
+        9715979,
+        10963995,
+        10859075,
+        10831607,
+        6574256,
+        389623,
+        8804498,
+        1071900,
+        151875,
+        7996932,
+        10963202,
+        10701258,
+        6591722,
+        5815885,
+        97741,
+        10962795,
+        4554941,
+        10958390,
+        8357445,
+        5909988,
+        9708909,
+        10945121,
+        5350374,
+        207444,
+        6448582,
+        9781901,
+        9522295,
+        9298076,
+        7631591,
+        8446724,
+        981652,
+        766087,
+        8585077,
+        130619,
+        10960617,
+        500645,
+        9806000,
+        10959945,
+        4513883,
+        9449840
+      ],
+      "slug" : "casaco-preto-e-rose",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 0,
+      "brand" : "-",
+      "user" : {
+        "gender" : "F",
+        "city" : "São Bernardo do Campo",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzQ0NjU3NDkvMGQ2NTRkZTQ5ZTU1ZTQ3NmJlZGFmYzRkZTYxMTg4NDkuanBn"
+        },
+        "nickname" : "alezinha-5a0b68",
+        "id" : 4465749,
+        "title" : "",
+        "href" : "\/alezinha-5a0b68",
+        "description" : "www.alecortat.com.br",
+        "name" : "Alezinha Cortat",
+        "state" : "SP"
+      },
+      "promoted" : null,
+      "free_shipping" : false,
+      "discount_percentage" : 19,
+      "shipping_type" : 5,
+      "price" : 66,
+      "seo_title" : "casaco preto e rose",
+      "tags" : null,
+      "content" : "casaco preto e rose confeccionado em tecido plano acetinado, o modelo possui fecho de zíper frontal, manga longa, detalhe de nervura na manga, detalhe canelado na barra, bolso, forro e modelagem reta.\n\nmarcas de uso: o produto apresenta marca de uso.\ncomposição: poliéster\n\nmedidas:\nbusto: 100.0cm\ncomp. braços: 56.0cm\ncomprimento: 56.0cm\n\nadministrado por enjoeipro",
+      "size" : "M",
+      "user_id" : 7394141,
+      "original_price_unformatted" : "82",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "66",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "82",
+          "discount_percentage" : 19,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "70",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "82",
+          "discount_percentage" : 14,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        }
+      ],
+      "categories" : {
+        "subcategory" : "casaquinhos",
+        "category" : "roupas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/casaco-preto-e-rose-32428460?product_id=32428460",
+      "awesomeness" : 4,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzkwYTYyOGJkNTVjNjVkZDNlYjEyYTFiMWUwZjkxMGY2LmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzEwOWU5NmI5YWM3ZjMyNWM0NTEwYTc1ODlkODE5OTdhLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxL2M0NzAwOWE4NWJhNzVmZjcyZDBiOGUzNmQzNjJkNjYwLmpwZw"
+        }
+      ],
+      "likes_count" : 115,
+      "title" : "casaco preto e rose",
+      "category_id" : 244,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzkwYTYyOGJkNTVjNjVkZDNlYjEyYTFiMWUwZjkxMGY2LmpwZw"
+      },
+      "category_slug" : "mocas-roupas-casaquinhos",
+      "minimum_price_integer" : 66,
+      "price_float" : 82,
+      "normalized_brand" : "bluesteel"
+    },
+    {
+      "maximum_installment" : 12,
+      "normalized_brand" : "couro-legitimo",
+      "promoted_step" : 0,
+      "created_at" : "2019-02-03T11:59:58-02:00",
+      "used" : true,
+      "id" : 32447391,
+      "original_price_integer" : 199,
+      "state" : "published",
+      "like_user_ids" : [
+        5714357,
+        5840311,
+        5915817,
+        8571563,
+        8816531,
+        4904255,
+        6648147,
+        10918974,
+        6632416,
+        967408,
+        969696,
+        437349,
+        487639,
+        10902676,
+        10715587,
+        4636419,
+        9115784,
+        311750,
+        4885315,
+        7179534,
+        6313088,
+        10922270,
+        182744,
+        657787,
+        5897172,
+        7492109,
+        7021061,
+        8862263,
+        8947139,
+        8953376
+      ],
+      "slug" : "bolsa-grande-couro-legitimo-preta",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 0,
+      "brand" : "couro-legítimo",
+      "user" : {
+        "gender" : "F",
+        "city" : "Sete Lagoas",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzM5MDIyNi9kZmVmZGU4ZWQxMTVkYzNlN2UwNjI0OGIzOGRlYTUwYS5qcGc"
+        },
+        "nickname" : "breshopml",
+        "id" : 390226,
+        "title" : "produtos variados",
+        "href" : "\/breshopml",
+        "description" : "Tudo selecionado com muito carinho. mora em sete lagoas ou belo horizonte ?posso entregar em mãos ;faça suas ofertas ,envio serão feito todos dias pela manhã",
+        "name" : "em elisabeth modas",
+        "state" : "MG"
+      },
+      "promoted" : null,
+      "free_shipping" : false,
+      "discount_percentage" : 29,
+      "shipping_type" : 5,
+      "price" : 140,
+      "seo_title" : "bolsa grande  couro legítimo preta",
+      "tags" : null,
+      "content" : "bolsa preta couro legítimo, com 3 divisões ,metais dourado em ótimo estado, sem avarias! tamanho excelente 46 de largura , 34 de altura e 14 de profundidade por dentro  tecido de algodão, 1 bolso com zíper e outro bolsinho porta cartões.",
+      "size" : null,
+      "user_id" : 390226,
+      "original_price_unformatted" : "199",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "140",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "199",
+          "discount_percentage" : 29,
+          "promotion_slug" : "fev30",
+          "promotion_id" : 1253
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "150",
+          "starts_at" : "2019-01-10T00:00:00-02:00",
+          "product_price" : "199",
+          "discount_percentage" : 24,
+          "promotion_slug" : "2019-25",
+          "promotion_id" : 1023
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "160",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "199",
+          "discount_percentage" : 19,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-12T23:59:59-02:00",
+          "price" : "160",
+          "starts_at" : "2019-01-21T00:00:00-02:00",
+          "product_price" : "199",
+          "discount_percentage" : 19,
+          "promotion_slug" : "19bolsa20",
+          "promotion_id" : 1190
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "170",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "199",
+          "discount_percentage" : 14,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        }
+      ],
+      "categories" : {
+        "subcategory" : "ombro",
+        "category" : "bolsas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/bolsa-grande-couro-legitimo-preta-32447391?product_id=32447391",
+      "awesomeness" : 2,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8zOTAyMjYvNWI2OWFkNjFiMmM1N2U3MTIxYzJmOWU2NzYwMjM3NjEuanBn"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8zOTAyMjYvN2M5MjZmNTcyMDczN2E1NWM1OWMzYzllODBjN2M2ZmUuanBn"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8zOTAyMjYvODk5NjEwMjBhNDJhOTg1MDk0YTI2NjliMjQ2MGE4ZTAuanBn"
+        }
+      ],
+      "likes_count" : 30,
+      "title" : "bolsa grande couro legítimo preta",
+      "category_id" : 259,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8zOTAyMjYvNWI2OWFkNjFiMmM1N2U3MTIxYzJmOWU2NzYwMjM3NjEuanBn"
+      },
+      "category_slug" : "mocas-bolsas-ombro",
+      "minimum_price_integer" : 140,
+      "category_tags" : [
+        {
+          "kind" : "shape",
+          "name" : "tiracolo"
+        },
+        {
+          "kind" : "shape",
+          "name" : "grande"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "casual"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "trabalho"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "croco"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "couro"
+        }
+      ],
+      "price_float" : 199
+    },
+    {
+      "maximum_installment" : 12,
+      "promoted_step" : 0,
+      "created_at" : "2019-02-04T00:02:45-02:00",
+      "used" : true,
+      "id" : 32463170,
+      "original_price_integer" : 66,
+      "state" : "published",
+      "like_user_ids" : [
+        10747040,
+        682134,
+        4625100,
+        8284351,
+        6695164,
+        10839515,
+        403204,
+        10885040
+      ],
+      "slug" : "short-nike-running",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 0,
+      "brand" : "-",
+      "user" : {
+        "gender" : "F",
+        "city" : "Sorocaba",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzQxNTkwOC9iNDhjYzBiODA4M2U2NTM5MzVjYjU3NGQ4ZDgxM2RhMS5qcGc"
+        },
+        "nickname" : "lojabeth",
+        "id" : 415908,
+        "title" : "lojinha da beth",
+        "href" : "\/lojabeth",
+        "description" : "",
+        "name" : "Elyzabeth Fontoura Barbosa",
+        "state" : "SP"
+      },
+      "promoted" : null,
+      "free_shipping" : false,
+      "discount_percentage" : 19,
+      "shipping_type" : 5,
+      "price" : 53,
+      "seo_title" : "short nike running",
+      "tags" : null,
+      "content" : "short preto e cinza confeccionado em malha dri-fit, o modelo possui elástico com tira para amarração no cós, bolsos laterais e modelagem soltinha.\n\ncomposição: elastano, poliéster\n\nmedidas:\ncintura: 94.0cm\ncomprimento: 35.0cm\n\nadministrado por enjoeipro",
+      "size" : "G",
+      "user_id" : 7394141,
+      "original_price_unformatted" : "66",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "53",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "66",
+          "discount_percentage" : 19,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "57",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "66",
+          "discount_percentage" : 13,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        }
+      ],
+      "categories" : {
+        "subcategory" : "short",
+        "category" : "roupas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/short-nike-running-32463170?product_id=32463170",
+      "awesomeness" : 4,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxL2UyZDgwYmUyYWNmOTQ5YzVmOWVjMTYzMjkyNjM4YzNlLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxL2U1M2NkZjM1YjUwNjkxYzU1NGVlMTEzNzkyMzI3MjVjLmpwZw"
+        }
+      ],
+      "likes_count" : 8,
+      "title" : "short nike running",
+      "category_id" : 247,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxL2UyZDgwYmUyYWNmOTQ5YzVmOWVjMTYzMjkyNjM4YzNlLmpwZw"
+      },
+      "category_slug" : "mocas-roupas-short",
+      "minimum_price_integer" : 53,
+      "price_float" : 66,
+      "normalized_brand" : "nike"
+    },
+    {
+      "maximum_installment" : 12,
+      "normalized_brand" : "zara",
+      "promoted_step" : 4,
+      "created_at" : "2019-02-03T17:52:14-02:00",
+      "used" : false,
+      "id" : 32454937,
+      "original_price_integer" : 220,
+      "state" : "published",
+      "like_user_ids" : [
+        1004018,
+        7227092,
+        5012053,
+        5700546,
+        80332,
+        6721564,
+        506465,
+        10899385,
+        10970188,
+        5009930,
+        6131641,
+        6750705,
+        508214,
+        7061136,
+        89033,
+        324589,
+        4813156,
+        608673,
+        490681,
+        931728,
+        4877588,
+        818085
+      ],
+      "slug" : "jaqueta-de-tweed-zara",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 2,
+      "brand" : "zara",
+      "user" : {
+        "gender" : "F",
+        "city" : "pelotas",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzI1NTIwNS85MWJjM2I4MTcyNmZjZTY4ZTE0M2UwMzc2YjQ0MDVhOC5qcGc"
+        },
+        "nickname" : "risebazar",
+        "id" : 255205,
+        "title" : "RISE STORE BAZAR",
+        "href" : "\/risebazar",
+        "description" : "ESTUDANTE DE MODA, ALEGRE, DETERMINADA E DE BEM COM A VIDA. \r\n \r\nBEM VINDO AO CANTINHO DOS DESAPEGOS DA ANA.\r\nBAZAR DE NOVOS E USADOS, TUDO SEMPRE BEM CUIDADINHO PARA VOCÊ.",
+        "name" : "ana lucia prates aguiar",
+        "state" : "RS"
+      },
+      "promoted" : true,
+      "free_shipping" : false,
+      "discount_percentage" : 20,
+      "shipping_type" : 5,
+      "price" : 176,
+      "seo_title" : "jaqueta de tweed zara",
+      "tags" : null,
+      "content" : "linda jaqueta zara original\ntamanho pequeno",
+      "size" : "Único",
+      "user_id" : 255205,
+      "original_price_unformatted" : "220",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "176",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "220",
+          "discount_percentage" : 20,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "187",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "220",
+          "discount_percentage" : 15,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        }
+      ],
+      "categories" : {
+        "subcategory" : "casaquinhos",
+        "category" : "roupas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/jaqueta-de-tweed-zara-32454937?product_id=32454937",
+      "awesomeness" : 2,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8yNTUyMDUvNmZmMDY4YzE0NzA4YTM2YjAxODU1Njc1MzMzYjg4MzAuanBn"
+        }
+      ],
+      "likes_count" : 22,
+      "title" : "jaqueta de tweed zara",
+      "category_id" : 244,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8yNTUyMDUvNmZmMDY4YzE0NzA4YTM2YjAxODU1Njc1MzMzYjg4MzAuanBn"
+      },
+      "category_slug" : "mocas-roupas-casaquinhos",
+      "minimum_price_integer" : 176,
+      "category_tags" : [
+        {
+          "kind" : "shape",
+          "name" : "jaqueta"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "fashion"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "linho"
+        }
+      ],
+      "price_float" : 220
+    },
+    {
+      "maximum_installment" : 4,
+      "promoted_step" : 0,
+      "created_at" : "2019-02-01T10:15:29-02:00",
+      "used" : true,
+      "id" : 32414263,
+      "original_price_integer" : 20,
+      "state" : "published",
+      "like_user_ids" : [
+        4879734,
+        9941351,
+        8088811,
+        79697,
+        7526576,
+        150780,
+        650331,
+        10932451,
+        899182,
+        8618695,
+        6278569,
+        10964074,
+        6574256,
+        4502715,
+        10962795,
+        10731392,
+        7708913,
+        516028,
+        450360,
+        9781901,
+        10763159,
+        6949277,
+        8584875,
+        9561230,
+        10955562,
+        8665656,
+        10956530,
+        9453842,
+        10956023,
+        70253,
+        10955496,
+        209465,
+        9306110,
+        422545
+      ],
+      "slug" : "biquini-listradinho",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 4,
+      "brand" : "sem-marca",
+      "user" : {
+        "gender" : "F",
+        "city" : "Curitiba",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzg4MjUxOTkvNDA1NGM3Nzg2ODFmYWNhYjRjOGYzNjM2NGRjYWZjYWUuanBn"
+        },
+        "nickname" : "fabiola-ea6af3",
+        "id" : 8825199,
+        "title" : "lojinha da fabi",
+        "href" : "\/fabiola-ea6af3",
+        "description" : "pra você,  sua casa e seu bebê",
+        "name" : "Fabiola Fabris Tkatch",
+        "state" : "PR"
+      },
+      "promoted" : null,
+      "free_shipping" : false,
+      "discount_percentage" : 20,
+      "shipping_type" : 5,
+      "price" : 16,
+      "seo_title" : "biquíni listradinho",
+      "tags" : null,
+      "content" : "biquini cortininha de listras, veste p",
+      "size" : "P",
+      "user_id" : 8825199,
+      "original_price_unformatted" : "20",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "16",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "20",
+          "discount_percentage" : 20,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        }
+      ],
+      "categories" : {
+        "subcategory" : null,
+        "category" : "praia",
+        "department" : "moças"
+      },
+      "href" : "\/p\/biquini-listradinho-32414263?product_id=32414263",
+      "awesomeness" : 2,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy84ODI1MTk5L2Y4OGEwN2ViNDJhMzg2NDA5MWI5YzM1ODI5ZDBiN2FiLmpwZw"
+        }
+      ],
+      "likes_count" : 34,
+      "title" : "biquíni listradinho",
+      "category_id" : 261,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy84ODI1MTk5L2Y4OGEwN2ViNDJhMzg2NDA5MWI5YzM1ODI5ZDBiN2FiLmpwZw"
+      },
+      "category_slug" : "mocas-praia",
+      "minimum_price_integer" : 16,
+      "price_float" : 20,
+      "normalized_brand" : "sem-marca"
+    },
+    {
+      "maximum_installment" : 12,
+      "normalized_brand" : "zara",
+      "promoted_step" : 8,
+      "created_at" : "2019-02-02T16:37:54-02:00",
+      "used" : true,
+      "id" : 32437569,
+      "original_price_integer" : 69,
+      "state" : "published",
+      "like_user_ids" : [
+        4657680,
+        5111154,
+        4605206,
+        1038876,
+        5270154,
+        226629,
+        58081,
+        6492221,
+        4967984,
+        10542707,
+        281278,
+        311153,
+        942755,
+        469066,
+        205940,
+        94256,
+        7492109,
+        182744,
+        425992,
+        6961989,
+        426120,
+        258415,
+        1079146,
+        66023,
+        5683674,
+        564941,
+        6143522,
+        9781901,
+        6574256,
+        1013108,
+        331458,
+        5589782,
+        5962502,
+        538229,
+        7292044,
+        4526909
+      ],
+      "slug" : "bolsa-zara-unissex",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 1,
+      "brand" : "zara",
+      "user" : {
+        "gender" : "F",
+        "city" : "São Paulo",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzk2MjA0NjAvOGYyZmU2ZjA4MTk5NjNlNTIyMjMyM2JiMTVlNTViOWUuanBn"
+        },
+        "nickname" : "closetfashio",
+        "id" : 9620460,
+        "title" : "lojinha closet fashion",
+        "href" : "\/closetfashio",
+        "description" : "vem curtir esses desapegos.\naceito propostas em todos os itens!",
+        "name" : "closet fashion",
+        "state" : "SP"
+      },
+      "promoted" : true,
+      "free_shipping" : false,
+      "discount_percentage" : 18,
+      "shipping_type" : 5,
+      "price" : 56,
+      "seo_title" : "bolsa zara unissex",
+      "tags" : null,
+      "content" : "linda bolsa da zara unissex em bom estado.",
+      "size" : null,
+      "user_id" : 9620460,
+      "original_price_unformatted" : "69",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "56",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "69",
+          "discount_percentage" : 18,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        }
+      ],
+      "categories" : {
+        "subcategory" : "ombro",
+        "category" : "bolsas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/bolsa-zara-unissex-32437569?product_id=32437569",
+      "awesomeness" : 2,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85NjIwNDYwL2E2MGM1YjQzZDY4MGU4OWZkYmYwYzFjZGU0MmNhOTY5LmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85NjIwNDYwLzI2MThkM2Y2YjkzYWY0OTNiN2NiZmRiYWQwM2RjNTJkLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85NjIwNDYwLzEwM2JlMWY4ZWEyYmI2ZDAxNGQ4NWM0YWY5OWJkOWFmLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85NjIwNDYwLzVhNDM4OGIyY2Q4NzY4NjE5YzkxOGRmZDRiYzMzYjhkLmpwZw"
+        }
+      ],
+      "likes_count" : 36,
+      "title" : "bolsa zara unissex",
+      "category_id" : 259,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy85NjIwNDYwL2E2MGM1YjQzZDY4MGU4OWZkYmYwYzFjZGU0MmNhOTY5LmpwZw"
+      },
+      "category_slug" : "mocas-bolsas-ombro",
+      "minimum_price_integer" : 56,
+      "category_tags" : [
+        {
+          "kind" : "shape",
+          "name" : "transversal"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "fashion"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "casual"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "couro"
+        }
+      ],
+      "price_float" : 69
+    },
+    {
+      "maximum_installment" : 12,
+      "normalized_brand" : "mulheres-rodadas",
+      "promoted_step" : 4,
+      "created_at" : "2019-02-02T17:08:22-02:00",
+      "used" : false,
+      "id" : 32438131,
+      "original_price_integer" : 70,
+      "state" : "published",
+      "like_user_ids" : [
+        5568276,
+        187685,
+        5253274,
+        306423,
+        10751089,
+        5182000,
+        589628,
+        10595285,
+        7492109,
+        7807201,
+        4673473,
+        10907333,
+        9815980,
+        5655679,
+        122496,
+        4808917,
+        8681,
+        108954,
+        6275589,
+        4663326,
+        4550831,
+        19925
+      ],
+      "slug" : "conjunto-carnaval",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 2,
+      "brand" : "mulheres rodadas",
+      "user" : {
+        "gender" : "F",
+        "city" : "Niterói",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzEwNzMyNjMvNzMzMDYyNTIyYmQ1Zjk2NWIxNzBlMzBjMWQ3NzMyYWQuanBn"
+        },
+        "nickname" : "brechozinmeu",
+        "id" : 1073263,
+        "title" : "Brechozin da Sara",
+        "href" : "\/brechozinmeu",
+        "description" : "Desapegos e aquela curadoria maneira nos brechós mais incríveis, tudo a precinhos camaradas. \r\nFaça uma sacolinha e ganhe aquele desconto massa.",
+        "name" : "sara sousa",
+        "state" : "RJ"
+      },
+      "promoted" : true,
+      "free_shipping" : false,
+      "discount_percentage" : 30,
+      "shipping_type" : 5,
+      "price" : 49,
+      "seo_title" : "conjunto carnaval",
+      "tags" : null,
+      "content" : "conjuntinho de carnaval do bloco carioca mulheres rodadas, pode ser usado junto ou separado. saia de paetes rodada maravilhosa. tamanho de etiqueta m, mas é bem grande, veste g talvez gg.\n\nmedidas (frente):\nsaia: cintura min 31 cm, max. 43 cm\ncomprimento: 40 cm\n\ntop: busto: 51 cm\ncomp: 56 cm\nbase: 77 cm\n\n*faça uma sacolinha e ganhe desconto*",
+      "size" : "G",
+      "user_id" : 1073263,
+      "original_price_unformatted" : "70",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "49",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "70",
+          "discount_percentage" : 30,
+          "promotion_slug" : "fev30",
+          "promotion_id" : 1253
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "53",
+          "starts_at" : "2019-01-10T00:00:00-02:00",
+          "product_price" : "70",
+          "discount_percentage" : 24,
+          "promotion_slug" : "2019-25",
+          "promotion_id" : 1023
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "56",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "70",
+          "discount_percentage" : 20,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "60",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "70",
+          "discount_percentage" : 14,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-14T23:59:59-02:00",
+          "price" : "60",
+          "starts_at" : "2019-01-09T00:00:00-02:00",
+          "product_price" : "70",
+          "discount_percentage" : 14,
+          "promotion_slug" : "19saia-15",
+          "promotion_id" : 1025
+        }
+      ],
+      "categories" : {
+        "subcategory" : "saias",
+        "category" : "roupas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/conjunto-carnaval-32438131?product_id=32438131",
+      "awesomeness" : 2,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDczMjYzL2M0MDg0M2I0YTliZWExNDQzZWI2MzcwNjg0MDEzYzljLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDczMjYzL2Q0ZTIxYWU5NTVjMTQwZjFmYzMxZjYwOTdhN2Y1YTdmLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDczMjYzL2RlZWMzZGY4YmE2MDVkNTM0NGMzMTY0MTAzMDQ3NDYwLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDczMjYzLzkxNzdlOGZhOWQ1YzA5Y2Q4MGUzMDBmNjA2ZGE0NTBmLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDczMjYzLzFjOWJlZmJiNmJkMjFhZTExMTkzMjU1NmRjOWJiMzUzLmpwZw"
+        }
+      ],
+      "likes_count" : 22,
+      "title" : "conjunto carnaval",
+      "category_id" : 246,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy8xMDczMjYzL2M0MDg0M2I0YTliZWExNDQzZWI2MzcwNjg0MDEzYzljLmpwZw"
+      },
+      "category_slug" : "mocas-roupas-saias",
+      "minimum_price_integer" : 49,
+      "category_tags" : [
+        {
+          "kind" : "shape",
+          "name" : "godê"
+        },
+        {
+          "kind" : "shape",
+          "name" : "evasê"
+        },
+        {
+          "kind" : "shape",
+          "name" : "rodada"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "fashion"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "verão"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "babado"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "paetê"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "lurex"
+        }
+      ],
+      "price_float" : 70
+    },
+    {
+      "maximum_installment" : 10,
+      "promoted_step" : 0,
+      "created_at" : "2019-02-04T00:02:38-02:00",
+      "used" : true,
+      "id" : 32463138,
+      "original_price_integer" : 50,
+      "state" : "published",
+      "like_user_ids" : [
+        7803655,
+        6119146,
+        403204,
+        8803683,
+        5948676
+      ],
+      "slug" : "body-preto-com-tule",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 0,
+      "brand" : "-",
+      "user" : {
+        "gender" : "F",
+        "city" : "Peabiru",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzc5NTY2MjgvMDNiZDIyMTRkOTFmM2Y1ZGFlODVkNTgxMWQ4ZjY5ODUuanBn"
+        },
+        "nickname" : "divacriativa",
+        "id" : 7956628,
+        "title" : "diva criativa",
+        "href" : "\/divacriativa",
+        "description" : "",
+        "name" : "camila melo",
+        "state" : "PR"
+      },
+      "promoted" : null,
+      "free_shipping" : false,
+      "discount_percentage" : 20,
+      "shipping_type" : 5,
+      "price" : 40,
+      "seo_title" : "body preto com tule",
+      "tags" : null,
+      "content" : "body confeccionado em malha, o modelo possui acabamento em tule na parte posterior e frontal, zíper posterior e botões entre pernas\n\n\nmedidas:\nbusto: 74.0cm\ncomp. braços: 62.0cm\ncomprimento: 57.0cm\n\nadministrado por enjoeipro",
+      "size" : "M",
+      "user_id" : 7394141,
+      "original_price_unformatted" : "50",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "40",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "50",
+          "discount_percentage" : 20,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "43",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "50",
+          "discount_percentage" : 14,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        }
+      ],
+      "categories" : {
+        "subcategory" : "blusas",
+        "category" : "roupas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/body-preto-com-tule-32463138?product_id=32463138",
+      "awesomeness" : 4,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzY3ZjE2NTNjNmQ4NDhlMDYyOWU3NjEyYjJkZGVhYjcwLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzlkZDA0OTlkMjc4OWMzMjAxM2ZhY2MxYzQwNzljNDJkLmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxL2I3MWYzODYzNjU2MGQ2ZGUzOWE1MmE3MjE1ZjEwMjMxLmpwZw"
+        }
+      ],
+      "likes_count" : 5,
+      "title" : "body preto com tule",
+      "category_id" : 239,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzY3ZjE2NTNjNmQ4NDhlMDYyOWU3NjEyYjJkZGVhYjcwLmpwZw"
+      },
+      "category_slug" : "mocas-roupas-blusas",
+      "minimum_price_integer" : 40,
+      "price_float" : 50,
+      "normalized_brand" : "estrastofera"
+    },
+    {
+      "maximum_installment" : 12,
+      "promoted_step" : 0,
+      "created_at" : "2019-02-02T00:02:07-02:00",
+      "used" : true,
+      "id" : 32428606,
+      "original_price_integer" : 65,
+      "state" : "published",
+      "like_user_ids" : [
+        283928,
+        8953376,
+        6335860,
+        7206428,
+        5287321,
+        4299,
+        10777724,
+        9336131,
+        6062948,
+        231960,
+        9320042,
+        5052040,
+        8123523,
+        9807887,
+        8812553,
+        502803,
+        5515504,
+        8650144
+      ],
+      "slug" : "vestido-longo-estampado-open-up",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 0,
+      "brand" : "-",
+      "user" : {
+        "gender" : "F",
+        "city" : "Rio de Janeiro",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzM3NjUyOS84MjlkOTc5NjNlMTM1MWNmMzU5OGE0YTM5NjgxODU4NC5qcGc"
+        },
+        "nickname" : "maria-429ab8",
+        "id" : 376529,
+        "title" : null,
+        "href" : "\/maria-429ab8",
+        "description" : null,
+        "name" : "Maria Fernanda Albuquerque",
+        "state" : "RJ"
+      },
+      "promoted" : null,
+      "free_shipping" : false,
+      "discount_percentage" : 20,
+      "shipping_type" : 5,
+      "price" : 52,
+      "seo_title" : "vestido longo estampado open up",
+      "tags" : null,
+      "content" : "vestido longo colorido confeccionado em tecido leve, o modelo possui decote v, manga curta com recorte, alça ajustável, mix de estampas, fenda lateral e elástico no cós.\n\ncomposição: elastano, poliéster\n\nmedidas:\nbusto: 92.0cm\ncintura: 66.0cm\ncomprimento: 10.0cm\n\nadministrado por enjoeipro",
+      "size" : "G",
+      "user_id" : 7394141,
+      "original_price_unformatted" : "65",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "52",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "65",
+          "discount_percentage" : 20,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "56",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "65",
+          "discount_percentage" : 13,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        }
+      ],
+      "categories" : {
+        "subcategory" : "vestidos",
+        "category" : "roupas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/vestido-longo-estampado-open-up-32428606?product_id=32428606",
+      "awesomeness" : 4,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzlkMWI5N2Y0MmRlOTczNWRiNjYwM2UyZDY4YTE1ZTY4LmpwZw"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzMyNTZjYjk0YjgyOTljM2I2MjYyYWZhMzg4OWJhMzhiLmpwZw"
+        }
+      ],
+      "likes_count" : 18,
+      "title" : "vestido longo estampado open up",
+      "category_id" : 248,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy83Mzk0MTQxLzlkMWI5N2Y0MmRlOTczNWRiNjYwM2UyZDY4YTE1ZTY4LmpwZw"
+      },
+      "category_slug" : "mocas-roupas-vestidos",
+      "minimum_price_integer" : 52,
+      "price_float" : 65,
+      "normalized_brand" : "open-up"
+    },
+    {
+      "maximum_installment" : 8,
+      "normalized_brand" : "sem-marca",
+      "promoted_step" : 0,
+      "created_at" : "2019-02-02T12:55:34-02:00",
+      "used" : true,
+      "id" : 32433540,
+      "original_price_integer" : 40,
+      "state" : "published",
+      "like_user_ids" : [
+        10970641,
+        62270,
+        6632416,
+        94256,
+        7492109,
+        182744,
+        148676,
+        50180,
+        8911518,
+        4878253,
+        9599775,
+        7482831,
+        6826843,
+        8284416,
+        9968381,
+        7021061,
+        10633814,
+        7687431,
+        312977
+      ],
+      "slug" : "bolsa-pasta-vinho",
+      "department_id" : 224,
+      "available_units" : true,
+      "published_comments_count" : 1,
+      "brand" : "sem marca",
+      "user" : {
+        "gender" : "F",
+        "city" : "São Paulo",
+        "avatar" : {
+          "type" : "Photo::Avatar",
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9hdmF0YXJzLzQ4MTQ1LzQ0NWJiZTBmNzhkNjczMTE4MGM5YjRhNzVlZmE4NjA1LmpwZw"
+        },
+        "nickname" : "garimposnana",
+        "id" : 48145,
+        "title" : "",
+        "href" : "\/garimposnana",
+        "description" : "Pra mim, roupa é atitude! \nAliás, adoro negociar! Se gostou da peça, me manda uma proposta!",
+        "name" : "inara n. m.",
+        "state" : "SP"
+      },
+      "promoted" : null,
+      "free_shipping" : false,
+      "discount_percentage" : 25,
+      "shipping_type" : 5,
+      "price" : 30,
+      "seo_title" : "bolsa pasta vinho",
+      "tags" : null,
+      "content" : "bolsa pasta vinho! linda demais e sem nenhuma avaria! 38cm de largura e 41cm de comprimento! perfeita pra usar pra trabalhar! tem bolsos internos e externos",
+      "size" : null,
+      "user_id" : 48145,
+      "original_price_unformatted" : "40",
+      "promotions" : [
+        {
+          "active" : true,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "30",
+          "starts_at" : "2019-01-10T00:00:00-02:00",
+          "product_price" : "40",
+          "discount_percentage" : 25,
+          "promotion_slug" : "2019-25",
+          "promotion_id" : 1023
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-07T23:59:59-02:00",
+          "price" : "32",
+          "starts_at" : "2019-02-01T00:00:00-02:00",
+          "product_price" : "40",
+          "discount_percentage" : 20,
+          "promotion_slug" : "fev20",
+          "promotion_id" : 1254
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-12T23:59:59-02:00",
+          "price" : "32",
+          "starts_at" : "2019-01-21T00:00:00-02:00",
+          "product_price" : "40",
+          "discount_percentage" : 20,
+          "promotion_slug" : "19bolsa20",
+          "promotion_id" : 1190
+        },
+        {
+          "active" : false,
+          "expires_at" : "2019-02-05T23:59:59-02:00",
+          "price" : "34",
+          "starts_at" : "2019-01-11T00:00:00-02:00",
+          "product_price" : "40",
+          "discount_percentage" : 15,
+          "promotion_slug" : "2019-15",
+          "promotion_id" : 1022
+        }
+      ],
+      "categories" : {
+        "subcategory" : "ombro",
+        "category" : "bolsas",
+        "department" : "moças"
+      },
+      "href" : "\/p\/bolsa-pasta-vinho-32433540?product_id=32433540",
+      "awesomeness" : 2,
+      "photos" : [
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy80ODE0NS80NWU3MjdlZTEzZTcwNjI3YWY5MDBmNGM1M2EyOTY4MS5qcGc"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy80ODE0NS8wZjhjM2RlODdkZThmZTUzNGE0MWRkODZjMDEwOGVjNy5qcGc"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy80ODE0NS9jMTc3OWQ3ZTI4M2Q1YTkyOGQwOTU3Njk1NzZkNTE5Zi5qcGc"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy80ODE0NS80MzVhY2RhMWE1ZWM3NTY4OGMyMGYyNDIyODk5ZjIxMS5qcGc"
+        },
+        {
+          "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy80ODE0NS83YjBiZjM3MGFkZDIxOGRmMTNhZWM1ZDQ5YmQzOWQxMi5qcGc"
+        }
+      ],
+      "likes_count" : 19,
+      "title" : "bolsa pasta vinho",
+      "category_id" : 259,
+      "default_photo" : {
+        "image_public_id" : "czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy80ODE0NS80NWU3MjdlZTEzZTcwNjI3YWY5MDBmNGM1M2EyOTY4MS5qcGc"
+      },
+      "category_slug" : "mocas-bolsas-ombro",
+      "minimum_price_integer" : 30,
+      "category_tags" : [
+        {
+          "kind" : "shape",
+          "name" : "envelope"
+        },
+        {
+          "kind" : "shape",
+          "name" : "média"
+        },
+        {
+          "kind" : "shape",
+          "name" : "saco"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "casual"
+        },
+        {
+          "kind" : "lifestyle",
+          "name" : "trabalho"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "fivela"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "tecido"
+        },
+        {
+          "kind" : "apparel",
+          "name" : "couro ecológico"
+        }
+      ],
+      "price_float" : 40
+    }
+  ]
+}

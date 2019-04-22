@@ -34,7 +34,7 @@ class HomeViewController: UIViewController {
   
   func setuprefreshControl() {
     do {
-      guard let url = Bundle.main.url(forResource: "pull_to_refresh", withExtension: "gif") else { return }
+      guard let url = Bundle.main.url(forResource: "pull_to_refresh", withExtension: "gif", subdirectory: "Gifs") else { return }
       let data = try Data(contentsOf: url)
       refreshControl.animatedImage = GIFAnimatedImage(data: data)
       refreshControl.contentMode = .scaleAspectFill
